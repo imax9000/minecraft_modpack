@@ -1,0 +1,11 @@
+    <Module name="Industrial Craft 2" id="ic2" depends="" side="BOTH">
+      <URL priority="0">http://jenkins.ic2.player.to/job/IC2_110/lastSuccessfulBuild/artifact/build/libs/industrialcraft-2-2.6.119-ex110.jar</URL>
+      <Size>6774785</Size>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <MD5>4fd97d26e0b23618acf2ec351d6bb6d7</MD5>
+      <Meta>
+        <url>http://wiki.industrial-craft.net/index.php?title=Main_Page</url>
+        <version>2.6.119</version>
+      </Meta>
+    </Module>
