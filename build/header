@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ServerPackv2.xsl" type="text/xsl" ?>
+<ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+  <Server id="imax2" name="Brave New World" newsUrl="http://imax.in.ua/mc/" version="1.7.10" mainClass="net.minecraft.launchwrapper.Launch" revision="%VERSION%" autoConnect="true" serverAddress="mc.imax.in.ua:25565">
+    <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.10&amp;forge=10.13.4.1614">forge</Import>
+

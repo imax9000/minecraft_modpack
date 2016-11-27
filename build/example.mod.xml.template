@@ -1,0 +1,11 @@
+    <Module name="%HUMAN_READABLE_NAME%" id="%MOD_ID%" depends="" side="BOTH">
+      <URL priority="0">%URL%</URL>
+      <Size>%FILE_SIZE%</Size>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <MD5>%FILE_MD5%</MD5>
+      <Meta>
+        <url>%MOD_PAGE%</url>
+        <version>%MOD_VERSION%</version>
+      </Meta>
+    </Module>
