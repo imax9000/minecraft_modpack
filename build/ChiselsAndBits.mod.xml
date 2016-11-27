@@ -1,0 +1,14 @@
+<Module name="Chisels &amp; Bits" id="chiselsandbits" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/chisels-bits/files/2341112</URL>
+			<Size>639316</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>30400ecd228a9faf69decab92a320ee4</MD5>
+			<Meta>
+				<credits>AlgorithmX2</credits>
+				<description>a mod about Sculpting, Decorating and Aesthetics</description>
+				<version>12.7</version>
+				<url>http://minecraft.curseforge.com/projects/chisels-bits</url>
+				<authors>AlgorithmX2</authors>
+			</Meta>
+		</Module>

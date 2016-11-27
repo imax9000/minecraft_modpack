@@ -1,0 +1,99 @@
+		<Module name="CodeChicken Core" id="CodeChickenCore" depends="" side="BOTH">
+			<URL priority="0">http://chickenbones.net/maven/codechicken/CodeChickenCore/1.10.2-2.3.5.91/CodeChickenCore-1.10.2-2.3.5.91-universal.jar</URL>
+			<Size>111075</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>82a30efa8470f7b670102f278784d5e8</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Base common code for all chickenbones mods.</description>
+				<version>2.3.5.91</version>
+				<url>http://www.minecraftforum.net/topic/909223</url>
+				<authors>ChickenBones</authors>
+			</Meta>
+		</Module>
+		<Module name="CodeChicken Lib" id="CodeChickenLib" depends="" side="BOTH">
+			<URL priority="0">http://chickenbones.net/maven/codechicken/CodeChickenLib/1.10.2-2.4.3.124/CodeChickenLib-1.10.2-2.4.3.124-universal.jar</URL>
+			<Size>503931</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f6d847e32da08003c9d37a89800f4d28</MD5>
+			<Meta>
+				<credits></credits>
+				<description>CodeChickenLib is a library of systems to help make various aspects of minecraft modding easier. It contains libraries for 3D math and transformations, model rendering, packets, config, colours, asm and a few other things..</description>
+				<version>2.4.3.124</version>
+				<url>http://chickenbones.net/Pages/links.html</url>
+				<authors>ChickenBones, covers1624</authors>
+			</Meta>
+		</Module>
+		<Module name="Just Enough Items" id="JEI" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/just-enough-items-jei/files/2349441/download</URL>
+			<Size>461211</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ddc3d8f2ad71f5f40f0acbb913c7907b</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Simple recipe and item helper.</description>
+				<version>3.13.6.387</version>
+				<url>https://github.com/mezz/JustEnoughItems</url>
+				<authors>mezz</authors>
+			</Meta>
+		</Module>
+		<Module name="ChickenChunks" id="ChickenChunks" depends="CodeChickenLib CodeChickenCore" side="BOTH">
+			<URL priority="0">http://chickenbones.net/maven/codechicken/ChickenChunks/1.10.2-2.1.5.42/ChickenChunks-1.10.2-2.1.5.42-universal.jar</URL>
+			<Size>115476</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7bd2885d463713d4d0433b2abf5f9a5f</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Advanced chunkloading management
+
+Credits: Sanguine - Texture
+
+Supporters:</description>
+				<version>2.1.5.42</version>
+				<url>http://www.minecraftforum.net/topic/909223</url>
+				<authors>ChickenBones</authors>
+			</Meta>
+		</Module>
+		<Module name="EnderStorage" id="EnderStorage" depends="CodeChickenLib CodeChickenCore" side="BOTH">
+			<URL priority="0">http://chickenbones.net/maven/codechicken/EnderStorage/1.10.2-2.1.5.84/EnderStorage-1.10.2-2.1.5.84-universal.jar</URL>
+			<Size>184989</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e125c98578beaee96794768f542f7443</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Stores your stuff in the END!
+
+Credits: Ecu - original idea, design,
+        chest and pouch texture
+    Rosethorns - tank model
+    Soaryn - tank texture
+
+Supporters: Blkdragon112</description>
+				<version>2.1.5.88</version>
+				<url>http://www.minecraftforum.net/topic/909223</url>
+				<authors>ChickenBones, covers1624</authors>
+			</Meta>
+		</Module>
+		<Module name="Not Enough Items" id="NEI" depends="CodeChickenLib CodeChickenCore JEI" side="BOTH">
+			<URL priority="0">http://chickenbones.net/maven/codechicken/NotEnoughItems/1.10.2-2.1.2.163/NotEnoughItems-1.10.2-2.1.2.163-universal.jar</URL>
+			<Size>545089</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b9094e2d483c0a1dd320cc50eb21d817</MD5>
+			<Meta>
+				<credits>Alexandria - original idea</credits>
+				<description>Recipe Viewer, Inventory Manager, Item Spawner, Cheats and more.
+
+&lt;plugins&gt;
+
+Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Donut, Sleement, Ninja 5tyl3, Disalot</description>
+				<version>2.1.2.164</version>
+				<url>http://www.minecraftforum.net/topic/909223</url>
+				<authors>ChickenBones</authors>
+			</Meta>
+		</Module>
