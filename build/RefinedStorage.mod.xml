@@ -1,0 +1,21 @@
+		<Module name="Refined Storage" id="refinedstorage" depends="MCMultiPart" side="BOTH">
+			<URL priority="0">https://addons-origin.cursecdn.com/files/2349/317/refinedstorage-1.2.6.jar</URL>
+			<Size>1383224</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>865d81ef5118882bc153ac37aae07853</MD5>
+			<Meta>
+				<credits></credits>
+				<description>An elegant solution to your hoarding problem</description>
+				<version>1.2.6</version>
+				<url></url>
+				<authors>Refined Storage contributors</authors>
+			</Meta>
+		</Module>
+		<Module name="MCMultiPart" id="MCMultiPart" depends="" side="BOTH">
+			<URL priority="0">https://addons-origin.cursecdn.com/files/2340/729/MCMultiPart-1.3.0-universal.jar</URL>
+			<Size>178660</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0bbe580fc5562903f28df55a69984e91</MD5>
+		</Module>

@@ -1,0 +1,14 @@
+		<Module name="Light Level Overlay Reloaded" id="llor" depends="" side="BOTH">
+			<URL priority="0">https://addons-origin.cursecdn.com/files/2312/553/LLOverlayReloaded-1.1.0-mc[1.9-1.10.2].jar</URL>
+			<Size>17270</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a618267197c016ad8897b917b96b6a1e</MD5>
+			<Meta>
+				<credits>Thanks to 4poc for his original version.</credits>
+				<description>A mod visualizes the light level on top of blocks.</description>
+				<version>1.1.1-mc[1.9-1.11]</version>
+				<url>www.mmyzd.com</url>
+				<authors>oldjunyi</authors>
+			</Meta>
+		</Module>

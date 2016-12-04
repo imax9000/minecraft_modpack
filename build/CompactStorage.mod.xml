@@ -1,0 +1,14 @@
+		<Module name="CompactStorage" id="compactstorage" depends="" side="BOTH">
+			<URL priority="0">https://addons-origin.cursecdn.com/files/2302/965/compactstorage-2.1-1.9.4.jar</URL>
+			<Size>81176</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>59a59360cc0808dd3a1e47195f82e4c1</MD5>
+			<Meta>
+				<credits>Made by the Workshop team</credits>
+				<description>Adding new storage solutions to your world!</description>
+				<version>2.1</version>
+				<url>http:/github.com/Workshop-Development/CompactChests/</url>
+				<authors>tattyseal</authors>
+			</Meta>
+		</Module>
