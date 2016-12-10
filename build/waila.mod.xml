@@ -1,0 +1,14 @@
+    <Module name="What Am I Looking At" id="Waila" depends="" side="CLIENT">
+      <URL priority="0">https://minecraft.curseforge.com/projects/waila/files/2301859/download</URL>
+      <Size>544490</Size>
+      <Required isDefault="true">false</Required>
+      <ModType>Regular</ModType>
+      <MD5>ad5733255dac0b85b9bbe38749638060</MD5>
+      <Meta>
+        <credits></credits>
+        <description></description>
+        <version>1.7.0-B3</version>
+        <url>https://minecraft.curseforge.com/projects/waila</url>
+        <authors>ProfMobius</authors>
+      </Meta>
+    </Module>
