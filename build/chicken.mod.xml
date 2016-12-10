@@ -60,10 +60,10 @@ Supporters:</description>
 		</Module>
 		<Module name="EnderStorage" id="EnderStorage" depends="CodeChickenLib CodeChickenCore" side="BOTH">
 			<URL priority="0">http://chickenbones.net/maven/codechicken/EnderStorage/1.10.2-2.1.5.84/EnderStorage-1.10.2-2.1.5.84-universal.jar</URL>
-			<Size>184989</Size>
+			<Size>184993</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>e125c98578beaee96794768f542f7443</MD5>
+			<MD5>b14b9af02d7becefcd8ffce9b89175f1</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Stores your stuff in the END!
@@ -81,10 +81,10 @@ Supporters: Blkdragon112</description>
 		</Module>
 		<Module name="Not Enough Items" id="NEI" depends="CodeChickenLib CodeChickenCore JEI" side="BOTH">
 			<URL priority="0">http://chickenbones.net/maven/codechicken/NotEnoughItems/1.10.2-2.1.2.163/NotEnoughItems-1.10.2-2.1.2.163-universal.jar</URL>
-			<Size>545089</Size>
+			<Size>545093</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>b9094e2d483c0a1dd320cc50eb21d817</MD5>
+			<MD5>e4d3d95b89d7cdc10bbb5fb1cc85ec05</MD5>
 			<Meta>
 				<credits>Alexandria - original idea</credits>
 				<description>Recipe Viewer, Inventory Manager, Item Spawner, Cheats and more.
