@@ -1,7 +1,7 @@
 		<Module name="XRay" id="XRay" depends="" side="CLIENT">
 			<URL priority="0">https://s3.amazonaws.com/Minecraft.XRay/XRay-47.jar</URL>
 			<Size>307609</Size>
-			<Required>true</Required>
+			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>9ee9a06413507f206322f8fb1681d6f6</MD5>
 			<Meta>

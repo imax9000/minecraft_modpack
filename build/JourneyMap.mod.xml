@@ -1,7 +1,7 @@
 		<Module name="JourneyMap" id="journeymap" depends="" side="CLIENT">
 			<URL priority="0">https://addons-origin.cursecdn.com/files/2348/43/journeymap-1.10.2-5.3.0.jar</URL>
 			<Size>1686933</Size>
-			<Required>true</Required>
+			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>3d2bd18cda76cb8fc01dd47600d72fd8</MD5>
 			<Meta>
