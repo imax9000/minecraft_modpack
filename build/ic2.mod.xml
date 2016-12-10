@@ -1,13 +1,13 @@
     <Module name="IndustrialCraft 2" id="IC2" depends="" side="BOTH">
-      <URL priority="0">http://jenkins.ic2.player.to/job/IC2_110/lastSuccessfulBuild/artifact/build/libs/industrialcraft-2-2.6.119-ex110.jar</URL>
-      <Size>6774785</Size>
+      <URL priority="0">http://jenkins.ic2.player.to/job/IC2_110/129/artifact/build/libs/industrialcraft-2-2.6.129-ex110.jar</URL>
+      <Size>6801332</Size>
       <Required>true</Required>
       <ModType>Regular</ModType>
-      <MD5>4fd97d26e0b23618acf2ec351d6bb6d7</MD5>
+      <MD5>588d0775fef518d744e5ac300769f091</MD5>
       <Meta>
         <credits>Contributions by many people</credits>
         <description>Industrial age themed expansion for Minecraft.</description>
-        <version>2.6.119-ex110</version>
+        <version>2.6.129-ex110</version>
         <url>http://www.industrial-craft.net</url>
         <authors>Alblaka, Player, RichardG, Thunderdark, GregoriusT, alexthesax, Drashian, Elementalist, Feanturi, Lurch1985, SirusKing, tahu44, Aroma1997, estebes, Chocohead</authors>
       </Meta>
