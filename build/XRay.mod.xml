@@ -1,4 +1,4 @@
-		<Module name="XRay" id="XRay" depends="" side="BOTH">
+		<Module name="XRay" id="XRay" depends="" side="CLIENT">
 			<URL priority="0">https://s3.amazonaws.com/Minecraft.XRay/XRay-47.jar</URL>
 			<Size>307609</Size>
 			<Required>true</Required>

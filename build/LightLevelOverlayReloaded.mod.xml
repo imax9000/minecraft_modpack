@@ -1,4 +1,4 @@
-		<Module name="Light Level Overlay Reloaded" id="llor" depends="" side="BOTH">
+		<Module name="Light Level Overlay Reloaded" id="llor" depends="" side="CLIENT">
 			<URL priority="0">https://addons-origin.cursecdn.com/files/2312/553/LLOverlayReloaded-1.1.0-mc[1.9-1.10.2].jar</URL>
 			<Size>17270</Size>
 			<Required>true</Required>

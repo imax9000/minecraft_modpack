@@ -1,4 +1,4 @@
-		<Module name="JourneyMap" id="journeymap" depends="" side="BOTH">
+		<Module name="JourneyMap" id="journeymap" depends="" side="CLIENT">
 			<URL priority="0">https://addons-origin.cursecdn.com/files/2348/43/journeymap-1.10.2-5.3.0.jar</URL>
 			<Size>1686933</Size>
 			<Required>true</Required>
