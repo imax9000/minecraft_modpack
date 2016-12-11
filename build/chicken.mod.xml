@@ -82,7 +82,7 @@ Supporters: Blkdragon112</description>
 		<Module name="Not Enough Items" id="NEI" depends="CodeChickenLib CodeChickenCore JEI" side="BOTH">
 			<URL priority="0">http://chickenbones.net/maven/codechicken/NotEnoughItems/1.10.2-2.1.2.163/NotEnoughItems-1.10.2-2.1.2.163-universal.jar</URL>
 			<Size>545093</Size>
-			<Required>true</Required>
+			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>e4d3d95b89d7cdc10bbb5fb1cc85ec05</MD5>
 			<Meta>
