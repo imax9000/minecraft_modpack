@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="ServerPackv2.xsl" type="text/xsl" ?>
 <ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-  <Server id="cats" name="Brave New World" newsUrl="http://imax.in.ua/mc/" version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" revision="24">
+  <Server id="cats" name="Brave New World" newsUrl="http://imax.in.ua/mc/" version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" revision="26">
     <Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2847">forge</Import>
 
 		<Module name="CompactStorage" id="compactstorage" depends="" side="BOTH">
