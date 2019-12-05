@@ -1,0 +1,39 @@
+		<Module name="MicdoodleCore" id="micdoodlecore" depends="" side="BOTH">
+			<URL priority="0">https://ci.micdoodle8.com/job/Galacticraft-1.12/181/artifact/Forge/build/libs/MicdoodleCore-1.12.2-4.0.1.181.jar</URL>
+			<Size>52606</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5a11e5698ce38fa62beb1cc694e595d7</MD5>
+			<Meta>
+				<description>Galacticraft dependency</description>
+				<version>1.12.2-4.0.1.181</version>
+				<url>https://micdoodle8.com/mods/galacticraft</url>
+				<authors>Micdoodle8</authors>
+			</Meta>
+		</Module>
+		<Module name="Galacticraft Planets" id="galacticraftplanets" depends="micdoodlecore galacticraftcore" side="BOTH">
+			<URL priority="0">https://ci.micdoodle8.com/job/Galacticraft-1.12/181/artifact/Forge/build/libs/Galacticraft-Planets-1.12.2-4.0.1.181.jar</URL>
+			<Size>3845831</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>48d605276d61aef453720d0ab50b2fc3</MD5>
+			<Meta>
+				<description>Make space great again.</description>
+				<version>1.12.2-4.0.1.181</version>
+				<url>https://micdoodle8.com/mods/galacticraft</url>
+				<authors>Micdoodle8</authors>
+			</Meta>
+		</Module>
+		<Module name="GalacticraftCore" id="galacticraftcore" depends="micdoodlecore" side="BOTH">
+			<URL priority="0">https://ci.micdoodle8.com/job/Galacticraft-1.12/181/artifact/Forge/build/libs/GalacticraftCore-1.12.2-4.0.1.181.jar</URL>
+			<Size>10355756</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>77ec351e75c81672c1096c8558db1f75</MD5>
+			<Meta>
+				<description>Make space great again.</description>
+				<version>1.12.2-4.0.1.181</version>
+				<url>https://micdoodle8.com/mods/galacticraft</url>
+				<authors>Micdoodle8</authors>
+			</Meta>
+		</Module>

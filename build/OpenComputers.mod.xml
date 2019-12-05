@@ -1,0 +1,14 @@
+		<Module name="OpenComputers" id="opencomputers" depends="" side="BOTH">
+			<URL priority="0">https://media.forgecdn.net/files/2828/357/OpenComputers-MC1.12.2-1.7.5.192.jar</URL>
+			<Size>15643758</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1da9dd8478ba6d682f2787746776e18a</MD5>
+			<Meta>
+				<credits>Inspired by a couple of other mods, most notably ComputerCraft.</credits>
+				<description>This mod adds modular computers and robots that can be programmed in Lua.</description>
+				<version>1.7.5.192</version>
+				<url>http://oc.cil.li/</url>
+				<authors>Sangar, Vexatos, payonel, magik6k, Lord Joda, Github Contributors</authors>
+			</Meta>
+		</Module>

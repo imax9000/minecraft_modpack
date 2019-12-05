@@ -1,14 +1,14 @@
     <Module name="Morpheus" id="Morpheus" depends="" side="SERVER">
-      <URL priority="0">https://minecraft.curseforge.com/projects/morpheus/files/2346198/download</URL>
-      <Size>20063</Size>
+      <URL priority="0">https://www.curseforge.com/minecraft/mc-mods/morpheus/download/2664449/file</URL>
+      <Size>21508</Size>
       <Required isDefault="true">false</Required>
       <ModType>Regular</ModType>
-      <MD5>5435a231a09ad2521afea03366ec0587</MD5>
+      <MD5>357dc3701a8c7d4109147c666f6a4300</MD5>
       <Meta>
         <credits></credits>
         <description>Morpheus is a server-only mod that adds sleep voting to a forge based server. When a player sleeps, all other players in the same dimension are notified so it is easier to coordinate.</description>
-        <version>1.10.2-3.1.12</version>
-        <url>http://www.curse.com/mc-mods/Minecraft/morpheus</url>
+        <version>3.5.106</version>
+        <url>https://www.curseforge.com/minecraft/mc-mods/morpheus</url>
         <authors>Quetzi</authors>
       </Meta>
     </Module>

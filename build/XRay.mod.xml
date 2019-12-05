@@ -1,11 +1,11 @@
 		<Module name="XRay" id="XRay" depends="" side="CLIENT">
-			<URL priority="0">https://s3.amazonaws.com/Minecraft.XRay/XRay-39.jar</URL>
-			<Size>302569</Size>
+			<URL priority="0">https://media.forgecdn.net/files/2750/239/xray-1.12.2-1.6.0.jar</URL>
+			<Size>122430</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>2eedb924529bf2634ce973bcde3447a8</MD5>
+			<MD5>69a6284310ebd8b67b9fd72c4e8ee160</MD5>
 			<Meta>
-				<version>39</version>
-				<url>http://minecraftxray.net/</url>
+				<version>1.6.0</version>
+				<url>https://github.com/michaelhillcox/XRay-Mod</url>
 			</Meta>
 		</Module>

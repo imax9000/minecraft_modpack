@@ -1,0 +1,14 @@
+		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
+			<URL priority="0">https://media.forgecdn.net/files/2803/400/jei_1.12.2-4.15.0.291.jar</URL>
+			<Size>651473</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>cfdbfecefb1bdc5a3fbbcecbfecb0545</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Simple recipe and item helper.</description>
+				<version>4.15.0.291</version>
+				<url>https://github.com/mezz/JustEnoughItems</url>
+				<authors>mezz</authors>
+			</Meta>
+		</Module>
