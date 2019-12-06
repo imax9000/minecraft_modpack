@@ -12,3 +12,17 @@
 				<authors>mezz</authors>
 			</Meta>
 		</Module>
+		<Module name="Just Enough Resources" id="jeresources" depends="jei" side="CLIENT">
+			<URL>https://media.forgecdn.net/files/2728/585/JustEnoughResources-1.12.2-0.9.2.60.jar</URL>
+			<Curse project="just-enough-resources-jer" file="2497186" type="RELEASE" autoupgrade="false"/>
+			<Size>222270</Size><MD5>87a4666549a60d8fb423883dd4ee6232</MD5>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<Meta>
+				<credits/>
+				<description>Adds Resources and Mob Drops to JEI</description>
+				<version>0.9.2.60</version>
+				<url/>
+				<authors>way2muchnoise</authors>
+			</Meta>
+		</Module>
