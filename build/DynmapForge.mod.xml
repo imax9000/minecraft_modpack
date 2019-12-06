@@ -1,0 +1,10 @@
+    <Module name="DynmapForge" id="dynmapforge" depends="" side="SERVER">
+      <URL priority="0">https://media.forgecdn.net/files/2722/448/Dynmap-3.0-beta-4-forge-1.12.2.jar</URL>
+      <Size>5862985</Size><MD5>37a9f95eb8c615286f3c9eabddb61f61</MD5>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <Meta>
+        <url>https://www.curseforge.com/minecraft/mc-mods/dynmapforge</url>
+        <version>3.0-beta-4</version>
+      </Meta>
+    </Module>

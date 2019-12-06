@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-  <Server id="cats" name="The World" newsUrl="https://gelraen.github.io/minecraft_modpack/" version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" serverAddress="mc.imax.in.ua:25565" revision="45">
+  <Server id="cats" name="The World" newsUrl="https://gelraen.github.io/minecraft_modpack/" version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" serverAddress="mc.imax.in.ua:25565" revision="47">
     <Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2847">forge</Import>
 		<Module name="CompactStorage" id="compactstorage" depends="" side="BOTH">
 			<URL priority="0">https://media.forgecdn.net/files/2572/444/CompactStorage-3.1-12.jar</URL>
@@ -17,6 +17,16 @@
 				<authors>tattyseal</authors>
 			</Meta>
 		</Module>
+    <Module name="DynmapForge" id="dynmapforge" depends="" side="SERVER">
+      <URL priority="0">https://media.forgecdn.net/files/2722/448/Dynmap-3.0-beta-4-forge-1.12.2.jar</URL>
+      <Size>5862985</Size><MD5>37a9f95eb8c615286f3c9eabddb61f61</MD5>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <Meta>
+        <url>https://www.curseforge.com/minecraft/mc-mods/dynmapforge</url>
+        <version>3.0-beta-4</version>
+      </Meta>
+    </Module>
 		<Module name="MicdoodleCore" id="micdoodlecore" depends="" side="BOTH">
 			<URL priority="0">https://ci.micdoodle8.com/job/Galacticraft-1.12/181/artifact/Forge/build/libs/MicdoodleCore-1.12.2-4.0.1.181.jar</URL>
 			<Size>52606</Size>
