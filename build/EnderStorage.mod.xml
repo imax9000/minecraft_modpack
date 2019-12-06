@@ -2,7 +2,7 @@
 			<URL>https://media.forgecdn.net/files/2779/848/CodeChickenLib-1.12.2-3.2.3.358-universal.jar</URL>
 			<Curse project="codechicken-lib-1-8" file="2779848" type="RELEASE" autoupgrade="false"/>
 			<Size>704330</Size><MD5>3b5e44db5ac96fb23a439590b6731a31</MD5>
-			<Required>false</Required>
+			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<Meta>
 				<credits/>

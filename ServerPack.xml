@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-  <Server id="cats" name="The World" newsUrl="https://gelraen.github.io/minecraft_modpack/" version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" serverAddress="mc.imax.in.ua:25565" revision="49">
+  <Server id="cats" name="The World" newsUrl="https://gelraen.github.io/minecraft_modpack/" version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" serverAddress="mc.imax.in.ua:25565" revision="51">
     <Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2847">forge</Import>
 		<Module name="CompactStorage" id="compactstorage" depends="" side="BOTH">
 			<URL priority="0">https://media.forgecdn.net/files/2572/444/CompactStorage-3.1-12.jar</URL>
@@ -31,7 +31,7 @@
 			<URL>https://media.forgecdn.net/files/2779/848/CodeChickenLib-1.12.2-3.2.3.358-universal.jar</URL>
 			<Curse project="codechicken-lib-1-8" file="2779848" type="RELEASE" autoupgrade="false"/>
 			<Size>704330</Size><MD5>3b5e44db5ac96fb23a439590b6731a31</MD5>
-			<Required>false</Required>
+			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<Meta>
 				<credits/>
