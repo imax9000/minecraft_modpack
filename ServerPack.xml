@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-  <Server id="cats" name="The World" newsUrl="https://gelraen.github.io/minecraft_modpack/" version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" serverAddress="mc.imax.in.ua:25565" revision="42">
+  <Server id="cats" name="The World" newsUrl="https://gelraen.github.io/minecraft_modpack/" version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" serverAddress="mc.imax.in.ua:25565" revision="45">
     <Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2847">forge</Import>
 		<Module name="CompactStorage" id="compactstorage" depends="" side="BOTH">
 			<URL priority="0">https://media.forgecdn.net/files/2572/444/CompactStorage-3.1-12.jar</URL>
@@ -110,6 +110,19 @@
 				<version>0.9.2.60</version>
 				<url/>
 				<authors>way2muchnoise</authors>
+			</Meta>
+		</Module>
+		<Module name="Light Level Overlay Reloaded" id="llor" depends="" side="CLIENT">
+			<URL priority="0">https://media.forgecdn.net/files/2563/430/LLOverlayReloaded-1.1.6-mc1.12.2.jar</URL>
+			<Size>17931</Size><MD5>23f498874f1596b7a8c167ec4327b360</MD5>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<Meta>
+				<credits>Thanks to 4poc for his original version.</credits>
+				<description>A mod visualizes the light level on top of blocks.</description>
+				<version>1.1.6-mc1.12.2</version>
+				<url>www.mmyzd.com</url>
+				<authors>oldjunyi</authors>
 			</Meta>
 		</Module>
 		<Module name="OpenComputers" id="opencomputers" depends="" side="BOTH">
