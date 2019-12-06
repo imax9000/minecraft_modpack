@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-  <Server id="cats" name="The World" newsUrl="https://gelraen.github.io/minecraft_modpack/" version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" serverAddress="mc.imax.in.ua:25565" revision="47">
+  <Server id="cats" name="The World" newsUrl="https://gelraen.github.io/minecraft_modpack/" version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" serverAddress="mc.imax.in.ua:25565" revision="49">
     <Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2847">forge</Import>
 		<Module name="CompactStorage" id="compactstorage" depends="" side="BOTH">
 			<URL priority="0">https://media.forgecdn.net/files/2572/444/CompactStorage-3.1-12.jar</URL>
@@ -25,6 +25,30 @@
       <Meta>
         <url>https://www.curseforge.com/minecraft/mc-mods/dynmapforge</url>
         <version>3.0-beta-4</version>
+      </Meta>
+    </Module>
+		<Module name="[library] CodeChicken Lib" id="codechickenlib" depends="" side="BOTH">
+			<URL>https://media.forgecdn.net/files/2779/848/CodeChickenLib-1.12.2-3.2.3.358-universal.jar</URL>
+			<Curse project="codechicken-lib-1-8" file="2779848" type="RELEASE" autoupgrade="false"/>
+			<Size>704330</Size><MD5>3b5e44db5ac96fb23a439590b6731a31</MD5>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<Meta>
+				<credits/>
+				<description>CodeChickenLib is a library of systems to help make various aspects of minecraft modding easier. It contains libraries for 3D math and transformations, model rendering, packets, config, colours, asm and a few other things..</description>
+				<version>3.2.3.358</version>
+				<url>http://chickenbones.net/Pages/links.html</url>
+				<authors>ChickenBones, covers1624</authors>
+			</Meta>
+		</Module>
+		<Module name="EnderStorage" id="EnderStorage" depends="codechickenlib" side="BOTH">
+      <URL priority="0">https://media.forgecdn.net/files/2755/787/EnderStorage-1.12.2-2.4.6.137-universal.jar</URL>
+<Size>223250</Size><MD5>c66000e24e8c11675db554c644b31bda</MD5>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <Meta>
+        <url>https://www.curseforge.com/minecraft/mc-mods/ender-storage-1-8</url>
+        <version>2.4.6.137</version>
       </Meta>
     </Module>
 		<Module name="MicdoodleCore" id="micdoodlecore" depends="" side="BOTH">
