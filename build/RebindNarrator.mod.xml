@@ -1,0 +1,11 @@
+    <Module name="Rebind Narrator" id="rebindnarrator" depends="" side="CLIENT">
+      <URL priority="0">https://media.forgecdn.net/files/2577/418/rebindnarrator-1.0.jar</URL>
+      <Size>7608</Size><MD5>db9720e0781c5779681f8e7b41f8f291</MD5>
+      <Required isDefault="true">false</Required>
+      <ModType>Regular</ModType>
+      <Meta>
+        <url>https://www.curseforge.com/minecraft/mc-mods/rebind-narrator</url>
+        <version>1.0</version>
+        <description>Adds an option to change voice narration biding from Ctrl+B to something else.</description>
+      </Meta>
+    </Module>
