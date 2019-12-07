@@ -1,22 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-  <Server id="cats" name="The World" newsUrl="https://gelraen.github.io/minecraft_modpack/" version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" serverAddress="mc.imax.in.ua:25565" revision="51">
+  <Server id="cats" name="The World" newsUrl="https://gelraen.github.io/minecraft_modpack/" version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" serverAddress="mc.imax.in.ua:25565" revision="53">
     <Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2847">forge</Import>
-		<Module name="CompactStorage" id="compactstorage" depends="" side="BOTH">
-			<URL priority="0">https://media.forgecdn.net/files/2572/444/CompactStorage-3.1-12.jar</URL>
-			<Size>221716</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>fecbf15049118a028bb489f9b986e926</MD5>
-			<Meta>
-				<credits>Made by the Workshop team</credits>
-				<description>Adding new storage solutions to your world!</description>
-				<version>3.1</version>
-				<url>https://github.com/deletey/CompactStorage</url>
-				<authors>tattyseal</authors>
-			</Meta>
-		</Module>
     <Module name="DynmapForge" id="dynmapforge" depends="" side="SERVER">
       <URL priority="0">https://media.forgecdn.net/files/2722/448/Dynmap-3.0-beta-4-forge-1.12.2.jar</URL>
       <Size>5862985</Size><MD5>37a9f95eb8c615286f3c9eabddb61f61</MD5>
@@ -183,7 +169,7 @@
 				<credits></credits>
 				<description>An elegant solution to your hoarding problem</description>
 				<version>1.6.15</version>
-				<url></url>
+				<url>https://refinedstorage.raoulvdberge.com</url>
 				<authors>Refined Storage contributors</authors>
 			</Meta>
 		</Module>
