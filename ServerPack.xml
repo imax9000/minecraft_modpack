@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-  <Server id="cats" name="The World" newsUrl="https://gelraen.github.io/minecraft_modpack/" version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" serverAddress="mc.imax.in.ua:25565" revision="70">
+  <Server id="cats" name="The World" newsUrl="https://gelraen.github.io/minecraft_modpack/" version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" serverAddress="mc.imax.in.ua:25565" revision="72">
     <Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2847">forge</Import>
     <Module name="DynmapForge" id="dynmapforge" depends="" side="SERVER">
       <URL priority="0">https://media.forgecdn.net/files/2722/448/Dynmap-3.0-beta-4-forge-1.12.2.jar</URL>
@@ -262,7 +262,7 @@
         <authors>Quetzi</authors>
       </Meta>
     </Module>
-		<Module name="VanillaFix" id="vanillafix" depends="" side="BOTH">
+		<Module name="VanillaFix" id="vanillafix" depends="ForgeMixinFix" side="BOTH">
 			<URL>https://media.forgecdn.net/files/2639/533/VanillaFix-1.0.10-99.jar</URL>
 			<Curse project="vanillafix" file="2639533" type="RELEASE" autoupgrade="false"/>
 			<Size>1117860</Size>
@@ -337,7 +337,7 @@
 				<authors>squeek</authors>
 			</Meta>
 		</Module>
-		<Module name="LagGoggles" id="laggoggles" depends="" side="BOTH">
+		<Module name="LagGoggles" id="laggoggles" depends="ForgeMixinFix" side="BOTH">
 			<URL>https://media.forgecdn.net/files/2821/476/LagGoggles-FAT-1.12.2-4.9.jar</URL>
 			<Size>1189936</Size><MD5>a5d015547559a80acad9ad072a35fa04</MD5>
 			<Required>false</Required>
@@ -449,5 +449,17 @@
 				<authors>mezz</authors>
 			</Meta>
 		</Module>
+		<Module name="Forge Mixin Fix" id="ForgeMixinFix" depends="" side="BOTH">
+      <URL priority="0">https://media.forgecdn.net/files/2824/43/ForgeMixinFix-1.0.0.jar</URL>
+      <Size>2362</Size><MD5>fd469be4d75375cedcbfe70df15fc498</MD5>
+      <Required>false</Required>
+      <ModType>Regular</ModType>
+      <Meta>
+      	<description>Fixes java exceptions caused by Mixin library (used by LagGoggles and VanillaFix) interaction with OpenComputers.</description>
+        <url>https://www.curseforge.com/minecraft/mc-mods/forge-mixin-fix</url>
+        <version>1.0.0</version>
+      </Meta>
+    </Module>
+
   </Server>
 </ServerPack>

@@ -185,3 +185,15 @@
 				<authors>mezz</authors>
 			</Meta>
 		</Module>
+		<Module name="Forge Mixin Fix" id="ForgeMixinFix" depends="" side="BOTH">
+      <URL priority="0">https://media.forgecdn.net/files/2824/43/ForgeMixinFix-1.0.0.jar</URL>
+      <Size>2362</Size><MD5>fd469be4d75375cedcbfe70df15fc498</MD5>
+      <Required>false</Required>
+      <ModType>Regular</ModType>
+      <Meta>
+      	<description>Fixes java exceptions caused by Mixin library (used by LagGoggles and VanillaFix) interaction with OpenComputers.</description>
+        <url>https://www.curseforge.com/minecraft/mc-mods/forge-mixin-fix</url>
+        <version>1.0.0</version>
+      </Meta>
+    </Module>
+
