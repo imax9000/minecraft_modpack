@@ -1,4 +1,4 @@
-		<Module name="VanillaFix" id="vanillafix" depends="" side="BOTH">
+		<Module name="VanillaFix" id="vanillafix" depends="ForgeMixinFix" side="BOTH">
 			<URL>https://media.forgecdn.net/files/2639/533/VanillaFix-1.0.10-99.jar</URL>
 			<Curse project="vanillafix" file="2639533" type="RELEASE" autoupgrade="false"/>
 			<Size>1117860</Size>
@@ -73,7 +73,7 @@
 				<authors>squeek</authors>
 			</Meta>
 		</Module>
-		<Module name="LagGoggles" id="laggoggles" depends="" side="BOTH">
+		<Module name="LagGoggles" id="laggoggles" depends="ForgeMixinFix" side="BOTH">
 			<URL>https://media.forgecdn.net/files/2821/476/LagGoggles-FAT-1.12.2-4.9.jar</URL>
 			<Size>1189936</Size><MD5>a5d015547559a80acad9ad072a35fa04</MD5>
 			<Required>false</Required>
