@@ -26,3 +26,18 @@
 				<authors>way2muchnoise</authors>
 			</Meta>
 		</Module>
+		<Module name="JEI Integration" id="jeiintegration" depends="jei" side="CLIENT">
+			<URL>https://media.forgecdn.net/files/2491/927/jeiintegration_1.12.2-1.5.1.36.jar</URL>
+			<Curse project="jei-integration" file="2491927" type="RELEASE" autoupgrade="false"/>
+			<Size>54046</Size>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>de73cdc5de95a2685e50d90f01c03a50</MD5>
+			<Meta>
+				<credits>A huge thank you to Tonius for originally creating this amazing mod. I hope it lives up to his standards in his absence.</credits>
+				<description>JEI Integrations is the predecessor to NEI Integrations created by Tonius for Minecraft 1.7.10. It adds various tooltips, additional support for recipe handlers in Just Enough Items (JEI) and some various other features (Coming Soon...)</description>
+				<version>1.5.1.36</version>
+				<url>https://minecraft.curseforge.com/projects/jei-integration</url>
+				<authors>SnowShock35</authors>
+			</Meta>
+		</Module>

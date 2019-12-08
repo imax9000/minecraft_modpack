@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-  <Server id="cats" name="The World" newsUrl="https://gelraen.github.io/minecraft_modpack/" version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" serverAddress="mc.imax.in.ua:25565" revision="65">
+  <Server id="cats" name="The World" newsUrl="https://gelraen.github.io/minecraft_modpack/" version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" serverAddress="mc.imax.in.ua:25565" revision="68">
     <Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2847">forge</Import>
     <Module name="DynmapForge" id="dynmapforge" depends="" side="SERVER">
       <URL priority="0">https://media.forgecdn.net/files/2722/448/Dynmap-3.0-beta-4-forge-1.12.2.jar</URL>
@@ -130,6 +130,21 @@
 				<version>0.9.2.60</version>
 				<url/>
 				<authors>way2muchnoise</authors>
+			</Meta>
+		</Module>
+		<Module name="JEI Integration" id="jeiintegration" depends="jei" side="CLIENT">
+			<URL>https://media.forgecdn.net/files/2491/927/jeiintegration_1.12.2-1.5.1.36.jar</URL>
+			<Curse project="jei-integration" file="2491927" type="RELEASE" autoupgrade="false"/>
+			<Size>54046</Size>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>de73cdc5de95a2685e50d90f01c03a50</MD5>
+			<Meta>
+				<credits>A huge thank you to Tonius for originally creating this amazing mod. I hope it lives up to his standards in his absence.</credits>
+				<description>JEI Integrations is the predecessor to NEI Integrations created by Tonius for Minecraft 1.7.10. It adds various tooltips, additional support for recipe handlers in Just Enough Items (JEI) and some various other features (Coming Soon...)</description>
+				<version>1.5.1.36</version>
+				<url>https://minecraft.curseforge.com/projects/jei-integration</url>
+				<authors>SnowShock35</authors>
 			</Meta>
 		</Module>
 		<Module name="Light Level Overlay Reloaded" id="llor" depends="" side="CLIENT">
