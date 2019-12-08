@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-  <Server id="cats" name="The World" newsUrl="https://gelraen.github.io/minecraft_modpack/" version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" serverAddress="mc.imax.in.ua:25565" revision="68">
+  <Server id="cats" name="The World" newsUrl="https://gelraen.github.io/minecraft_modpack/" version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" serverAddress="mc.imax.in.ua:25565" revision="70">
     <Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2847">forge</Import>
     <Module name="DynmapForge" id="dynmapforge" depends="" side="SERVER">
       <URL priority="0">https://media.forgecdn.net/files/2722/448/Dynmap-3.0-beta-4-forge-1.12.2.jar</URL>
@@ -35,6 +35,16 @@
       <Meta>
         <url>https://www.curseforge.com/minecraft/mc-mods/ender-storage-1-8</url>
         <version>2.4.6.137</version>
+      </Meta>
+    </Module>
+    <Module name="Energy Converters" id="energyconverters" depends="" side="BOTH">
+      <URL priority="0">https://media.forgecdn.net/files/2826/61/energyconverters_1.12.2-1.3.6.24.jar</URL>
+      <Size>158181</Size><MD5>3172ae2531664a1077b5bb00baecbdf2</MD5>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <Meta>
+        <url>%https://www.curseforge.com/minecraft/mc-mods/energy-converters</url>
+        <version>1.3.6.24</version>
       </Meta>
     </Module>
 		<Module name="MicdoodleCore" id="micdoodlecore" depends="" side="BOTH">
