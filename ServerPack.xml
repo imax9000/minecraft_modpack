@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-  <Server id="cats" name="The World" newsUrl="https://gelraen.github.io/minecraft_modpack/" version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" serverAddress="mc.imax.in.ua:25565" revision="74">
+  <Server id="cats" name="The World" newsUrl="https://gelraen.github.io/minecraft_modpack/" version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" serverAddress="mc.imax.in.ua:25565" revision="77">
     <Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2847">forge</Import>
     <Module name="DynmapForge" id="dynmapforge" depends="" side="SERVER">
       <URL priority="0">https://media.forgecdn.net/files/2722/448/Dynmap-3.0-beta-4-forge-1.12.2.jar</URL>
@@ -84,20 +84,6 @@
 				<version>1.12.2-4.0.1.181</version>
 				<url>https://micdoodle8.com/mods/galacticraft</url>
 				<authors>Micdoodle8</authors>
-			</Meta>
-		</Module>
-		<Module name="Handles" id="handles" depends="opencomputers tardis" side="BOTH">
-			<URL priority="0">https://media.forgecdn.net/files/2703/550/handles-1.12.2-1.5.1.4.jar</URL>
-			<Size>439801</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>2bcc30242fe7722d69a846ddc6ff8c82</MD5>
-			<Meta>
-				<credits>TARDIS Team for theirs help and for the TARDIS Mod</credits>
-				<description>ComputerCraft integration for TARDIS Mod.</description>
-				<version>1.12.2-1.5.1.4</version>
-				<url>https://github.com/LotuxPunk/Handles</url>
-				<authors>LotuxPunk</authors>
 			</Meta>
 		</Module>
 		<Module name="JourneyMap" id="journeymap" depends="" side="CLIENT">
@@ -207,20 +193,6 @@
 				<version>1.6.15</version>
 				<url>https://refinedstorage.raoulvdberge.com</url>
 				<authors>Refined Storage contributors</authors>
-			</Meta>
-		</Module>
-		<Module name="New TARDIS Mod" id="tardis" depends="" side="BOTH">
-			<URL priority="0">https://media.forgecdn.net/files/2817/645/tardis-0.1.1B.jar</URL>
-			<Size>17480996</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>09de23e5605e401c8528fdcaa74f9129</MD5>
-			<Meta>
-				<credits>Suffril, DocArcane, LotuxPunk, and 50</credits>
-				<description>A mod that adds the TARDIS from Doctor Who into minecraft.</description>
-				<version>0.1.1B</version>
-				<url></url>
-				<authors>Spectre0987</authors>
 			</Meta>
 		</Module>
 		<Module name="XRay" id="XRay" depends="" side="CLIENT">
