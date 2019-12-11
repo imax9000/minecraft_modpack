@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-  <Server id="cats" name="The World" newsUrl="https://gelraen.github.io/minecraft_modpack/" version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" serverAddress="mc.imax.in.ua:25565" revision="77">
+  <Server id="cats" name="The World" newsUrl="https://gelraen.github.io/minecraft_modpack/" version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" serverAddress="mc.imax.in.ua:25565" revision="85">
     <Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2847">forge</Import>
     <Module name="DynmapForge" id="dynmapforge" depends="" side="SERVER">
       <URL priority="0">https://media.forgecdn.net/files/2722/448/Dynmap-3.0-beta-4-forge-1.12.2.jar</URL>
@@ -432,6 +432,27 @@
         <version>1.0.0</version>
       </Meta>
     </Module>
+    <Module name="[lib] bspkrsCore" id="bspkrsCore" depends="" side="CLIENT">
+      <URL priority="0">https://media.forgecdn.net/files/2722/821/%5b1.12%5dbspkrsCore-universal-7.6.0.1.jar</URL>
+      <Size>65907</Size><MD5>c916e0be02b2522054c22016faed7ed8</MD5>
+      <Required>false</Required>
+      <ModType>Regular</ModType>
+      <Meta>
+        <url>https://www.curseforge.com/minecraft/mc-mods/bspkrscore-updated</url>
+        <version>7.6.0.1</version>
+      </Meta>
+    </Module>
+    <Module name="ArmorStatusHUD" id="ArmorStatusHUD" depends="bspkrsCore" side="CLIENT">
+      <URL priority="0">https://media.forgecdn.net/files/2722/850/%5b1.12%5dArmorStatusHUD-client-1.43.0.jar</URL>
+      <Size>29153</Size><MD5>ecf13508dc9a0d7c197320d769bf099a</MD5>
+      <Required>false</Required>
+      <ModType>Regular</ModType>
+      <Meta>
+        <url>https://www.curseforge.com/minecraft/mc-mods/armorstatushud-updated</url>
+        <version>1.43.0</version>
+      </Meta>
+    </Module>
+
 
   </Server>
 </ServerPack>

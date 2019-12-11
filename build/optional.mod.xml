@@ -196,4 +196,25 @@
         <version>1.0.0</version>
       </Meta>
     </Module>
+    <Module name="[lib] bspkrsCore" id="bspkrsCore" depends="" side="CLIENT">
+      <URL priority="0">https://media.forgecdn.net/files/2722/821/%5b1.12%5dbspkrsCore-universal-7.6.0.1.jar</URL>
+      <Size>65907</Size><MD5>c916e0be02b2522054c22016faed7ed8</MD5>
+      <Required>false</Required>
+      <ModType>Regular</ModType>
+      <Meta>
+        <url>https://www.curseforge.com/minecraft/mc-mods/bspkrscore-updated</url>
+        <version>7.6.0.1</version>
+      </Meta>
+    </Module>
+    <Module name="ArmorStatusHUD" id="ArmorStatusHUD" depends="bspkrsCore" side="CLIENT">
+      <URL priority="0">https://media.forgecdn.net/files/2722/850/%5b1.12%5dArmorStatusHUD-client-1.43.0.jar</URL>
+      <Size>29153</Size><MD5>ecf13508dc9a0d7c197320d769bf099a</MD5>
+      <Required>false</Required>
+      <ModType>Regular</ModType>
+      <Meta>
+        <url>https://www.curseforge.com/minecraft/mc-mods/armorstatushud-updated</url>
+        <version>1.43.0</version>
+      </Meta>
+    </Module>
+
 
