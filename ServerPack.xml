@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-  <Server id="cats" name="The World" newsUrl="https://gelraen.github.io/minecraft_modpack/" version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" serverAddress="mc.imax.in.ua:25565" revision="85">
+  <Server id="cats" name="The World" newsUrl="https://gelraen.github.io/minecraft_modpack/" version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" serverAddress="mc.imax.in.ua:25565" revision="88">
     <Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2847">forge</Import>
     <Module name="DynmapForge" id="dynmapforge" depends="" side="SERVER">
       <URL priority="0">https://media.forgecdn.net/files/2722/448/Dynmap-3.0-beta-4-forge-1.12.2.jar</URL>
@@ -452,7 +452,20 @@
         <version>1.43.0</version>
       </Meta>
     </Module>
-
+		<Module name="Smooth Font" id="smoothfont" depends="" side="CLIENT">
+			<URL>https://media.forgecdn.net/files/2775/709/SmoothFont-mc1.12.2-2.1.1.jar</URL>
+			<Curse project="smooth-font" file="2775709" type="RELEASE" autoupgrade="false"/>
+			<Size>282904</Size><MD5>99f7cd6644efabbe6055f2e9f429aafb</MD5>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<Meta>
+				<credits/>
+				<description>Draws all fonts smoothly in any scale and also can use any font in your computer.</description>
+				<version>mc1.12.2-2.1.1</version>
+				<url>https://minecraft.curseforge.com/projects/smooth-font</url>
+				<authors>bre2el</authors>
+			</Meta>
+		</Module>
 
   </Server>
 </ServerPack>

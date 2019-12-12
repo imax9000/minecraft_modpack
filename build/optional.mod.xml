@@ -216,5 +216,18 @@
         <version>1.43.0</version>
       </Meta>
     </Module>
-
+		<Module name="Smooth Font" id="smoothfont" depends="" side="CLIENT">
+			<URL>https://media.forgecdn.net/files/2775/709/SmoothFont-mc1.12.2-2.1.1.jar</URL>
+			<Curse project="smooth-font" file="2775709" type="RELEASE" autoupgrade="false"/>
+			<Size>282904</Size><MD5>99f7cd6644efabbe6055f2e9f429aafb</MD5>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<Meta>
+				<credits/>
+				<description>Draws all fonts smoothly in any scale and also can use any font in your computer.</description>
+				<version>mc1.12.2-2.1.1</version>
+				<url>https://minecraft.curseforge.com/projects/smooth-font</url>
+				<authors>bre2el</authors>
+			</Meta>
+		</Module>
 
