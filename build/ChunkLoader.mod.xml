@@ -1,0 +1,10 @@
+    <Module name="ChunkLoader" id="chickenchunks" depends="codechickenlib" side="BOTH">
+      <URL priority="0">https://media.forgecdn.net/files/2755/785/ChickenChunks-1.12.2-2.4.2.74-universal.jar</URL>
+      <Size>134367</Size><MD5>f6bf337a09fcfa19aedc840f19cac222</MD5>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <Meta>
+        <url>https://www.curseforge.com/minecraft/mc-mods/chicken-chunks-1-8</url>
+        <version>2.4.2.74</version>
+      </Meta>
+    </Module>
