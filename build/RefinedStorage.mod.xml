@@ -12,3 +12,13 @@
 				<authors>Refined Storage contributors</authors>
 			</Meta>
 		</Module>
+    <Module name="Refined Storage: Requestify" id="rs-requestify" depends="refinedstorage" side="BOTH">
+      <URL priority="0">https://media.forgecdn.net/files/2696/433/refinedstoragerequestify-1.12.2-1.0.2-3.jar</URL>
+      <Size>28038</Size><MD5>6df57ccf0a4b75cd23ea10d76acb16ab</MD5>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <Meta>
+        <url>https://www.curseforge.com/minecraft/mc-mods/rs-requestify</url>
+        <version>1.0.2</version>
+      </Meta>
+    </Module>
