@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-  <Server id="cats" name="The World" newsUrl="https://gelraen.github.io/minecraft_modpack/" version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" serverAddress="mc.imax.in.ua:25565" revision="94">
+  <Server id="cats" name="The World" newsUrl="https://gelraen.github.io/minecraft_modpack/" version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" serverAddress="mc.imax.in.ua:25565" revision="96">
     <Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2847">forge</Import>
     <Module name="ChunkLoader" id="chickenchunks" depends="codechickenlib" side="BOTH">
       <URL priority="0">https://media.forgecdn.net/files/2755/785/ChickenChunks-1.12.2-2.4.2.74-universal.jar</URL>
@@ -371,7 +371,7 @@
 				<authors>squeek</authors>
 			</Meta>
 		</Module>
-		<Module name="Inventory Tweaks" id="InvTweaks" depends="" side="CLIENT">
+		<Module name="Inventory Tweaks" id="InvTweaks" depends="" side="BOTH">
 			<URL>https://media.forgecdn.net/files/2482/481/InventoryTweaks-1.63.jar</URL>
 			<Curse project="inventory-tweaks" file="2482481" type="RELEASE" autoupgrade="false"/>
 			<Size>263258</Size>

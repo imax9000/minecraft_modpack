@@ -115,7 +115,7 @@
 				<authors>squeek</authors>
 			</Meta>
 		</Module>
-		<Module name="Inventory Tweaks" id="InvTweaks" depends="" side="CLIENT">
+		<Module name="Inventory Tweaks" id="InvTweaks" depends="" side="BOTH">
 			<URL>https://media.forgecdn.net/files/2482/481/InventoryTweaks-1.63.jar</URL>
 			<Curse project="inventory-tweaks" file="2482481" type="RELEASE" autoupgrade="false"/>
 			<Size>263258</Size>
