@@ -1,4 +1,4 @@
-    <Module name="FTB Industrial Contraptions" id="ftb-industrial-contraptions" depends="" side="BOTH">
+    <Module name="FTB Industrial Contraptions" id="ftb-industrial-contraptions" depends="architectury myrtrees ftblibrary" side="BOTH">
       <URL priority="0">https://mediafiles.forgecdn.net/files/3907/201/ftb-industrial-contraptions-1900.1.7-build.212.jar</URL>
       <Size>2140683</Size><MD5>bf250b258f5bfadd92a0788f8f0afc7b</MD5>
       <Required>true</Required>
@@ -7,5 +7,38 @@
         <url>https://www.curseforge.com/minecraft/mc-mods/ftb-industrial-contraptions-forge</url>
         <version>1900.1.7</version>
         <description>FTB Industrial Contraptions is a tech mod inspired by IndustrialCraft</description>
+      </Meta>
+    </Module>
+    <Module name="Architectury API" id="architectury" depends="" side="BOTH">
+      <URL priority="0">https://mediafiles.forgecdn.net/files/3929/407/architectury-6.2.43-forge.jar</URL>
+      <Size>544508</Size><MD5>51724557763491f20dbbc730c58b4382</MD5>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <Meta>
+        <url>https://www.curseforge.com/minecraft/mc-mods/architectury-api</url>
+        <version>6.2.43</version>
+        <description></description>
+      </Meta>
+    </Module>
+    <Module name="Myrtrees" id="myrtrees" depends="architectury" side="BOTH">
+      <URL priority="0">https://mediafiles.forgecdn.net/files/3824/947/myrtrees-forge-1.2.0-build.31.jar</URL>
+      <Size>85581</Size><MD5>11c343a1b9a12634d4923db72844446c</MD5>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <Meta>
+        <url>https://www.curseforge.com/minecraft/mc-mods/myrtrees</url>
+        <version>1.2.0</version>
+        <description></description>
+      </Meta>
+    </Module>
+    <Module name="FTB Library" id="ftblibrary" depends="" side="BOTH">
+      <URL priority="0">https://mediafiles.forgecdn.net/files/3963/543/ftb-library-forge-1902.3.9-build.144.jar</URL>
+      <Size>576505</Size><MD5>c97e4f333c704e04a6bf038ad4a3b583</MD5>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <Meta>
+        <url>https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge</url>
+        <version>1902.3.9</version>
+        <description></description>
       </Meta>
     </Module>
