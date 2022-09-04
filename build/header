@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-  <Server id="cats" name="The World" newsUrl="https://gelraen.github.io/minecraft_modpack/" version="1.12.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" serverAddress="mc.imax.in.ua:25565" revision="%VERSION%">
-    <Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2847">forge</Import>
+  <Server id="meowcraft" name="MeowCraft" newsUrl="https://imax9000.github.io/minecraft_modpack/" version="1.19.2" mainClass="cpw.mods.bootstraplauncher.BootstrapLauncher" serverAddress="mc.imax.in.ua:25565" revision="%VERSION%">
+    <Loader type="Forge" version="1.19.2-43.1.1" loadOrder="0"/>

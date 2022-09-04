@@ -1,0 +1,11 @@
+    <Module name="Easier Sleeping" id="EasierSleeping" depends="" side="BOTH">
+      <URL priority="0">https://mediafiles.forgecdn.net/files/3962/615/EasierSleeping-1.19.2-2.1.2.jar</URL>
+      <Size>55239</Size><MD5>a53e5b5eeb2dcfae5fe38703bec94301</MD5>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <Meta>
+        <url>https://www.curseforge.com/minecraft/mc-mods/easier-sleeping</url>
+        <version>1.19.2-2.1.2</version>
+        <description>Allows to trigger fast-forward to morning when only a percentage of players are sleeping</description>
+      </Meta>
+    </Module>

@@ -1,0 +1,14 @@
+		<Module name="JourneyMap" id="journeymap" depends="" side="BOTH">
+			<URL priority="0">https://mediafiles.forgecdn.net/files/3902/437/journeymap-1.19-5.8.5-forge.jar</URL>
+			<Size>7026721</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>78fa28d30176c4b1af249e7162e95543</MD5>
+			<Meta>
+				<credits></credits>
+				<description>JourneyMap: Real-time map in-game or in a web browser as you explore.</description>
+				<version>1.19-5.8.5</version>
+				<url>http://journeymap.info</url>
+				<authors>techbrew, mysticdrew</authors>
+			</Meta>
+		</Module>
