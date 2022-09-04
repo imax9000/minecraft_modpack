@@ -1,0 +1,11 @@
+    <Module name="Clump XP Orbs together" id="clumps" depends="" side="SERVER">
+      <URL priority="0">https://mediafiles.forgecdn.net/files/3950/216/Clumps-forge-1.19.2-9.0.0%2B11.jar</URL>
+      <Size>16781</Size><MD5>d9a16dc5da321390e628e25aa79d4c8d</MD5>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <Meta>
+        <url>https://www.curseforge.com/minecraft/mc-mods/clumps</url>
+        <version>9.0.0+11</version>
+        <description>Clumps groups XP orbs together into a single entity to reduce lag when there are many in a small area.</description>
+      </Meta>
+    </Module>

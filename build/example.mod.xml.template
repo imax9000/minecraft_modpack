@@ -7,5 +7,6 @@
       <Meta>
         <url>%MOD_PAGE%</url>
         <version>%MOD_VERSION%</version>
+        <description></description>
       </Meta>
     </Module>

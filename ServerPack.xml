@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-  <Server id="meowcraft" name="MeowCraft" newsUrl="https://imax9000.github.io/minecraft_modpack/" version="1.19.2" mainClass="cpw.mods.bootstraplauncher.BootstrapLauncher" serverAddress="mc.imax.in.ua:25565" revision="13">
+  <Server id="meowcraft" name="MeowCraft" newsUrl="https://imax9000.github.io/minecraft_modpack/" version="1.19.2" mainClass="cpw.mods.bootstraplauncher.BootstrapLauncher" serverAddress="mc.imax.in.ua:25565" revision="15">
     <Loader type="Forge" version="1.19.2-43.1.1" loadOrder="0"/>
     <Module name="Easier Sleeping" id="EasierSleeping" depends="" side="BOTH">
       <URL priority="0">https://mediafiles.forgecdn.net/files/3962/615/EasierSleeping-1.19.2-2.1.2.jar</URL>
@@ -14,5 +14,61 @@
         <description>Allows to trigger fast-forward to morning when only a percentage of players are sleeping</description>
       </Meta>
     </Module>
+    <Module name="FTB Industrial Contraptions" id="ftb-industrial-contraptions" depends="" side="BOTH">
+      <URL priority="0">https://mediafiles.forgecdn.net/files/3907/201/ftb-industrial-contraptions-1900.1.7-build.212.jar</URL>
+      <Size>2140683</Size><MD5>bf250b258f5bfadd92a0788f8f0afc7b</MD5>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <Meta>
+        <url>https://www.curseforge.com/minecraft/mc-mods/ftb-industrial-contraptions-forge</url>
+        <version>1900.1.7</version>
+        <description>FTB Industrial Contraptions is a tech mod inspired by IndustrialCraft</description>
+      </Meta>
+    </Module>
+    <Module name="Clump XP Orbs together" id="clumps" depends="" side="SERVER">
+      <URL priority="0">https://mediafiles.forgecdn.net/files/3950/216/Clumps-forge-1.19.2-9.0.0%2B11.jar</URL>
+      <Size>16781</Size><MD5>d9a16dc5da321390e628e25aa79d4c8d</MD5>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <Meta>
+        <url>https://www.curseforge.com/minecraft/mc-mods/clumps</url>
+        <version>9.0.0+11</version>
+        <description>Clumps groups XP orbs together into a single entity to reduce lag when there are many in a small area.</description>
+      </Meta>
+    </Module>
+    <Module name="Player Corpses" id="corpse" depends="" side="BOTH">
+      <URL priority="0">https://mediafiles.forgecdn.net/files/3920/717/corpse-1.19.2-1.0.0.jar</URL>
+      <Size>220543</Size><MD5>48c6552127e8aa4a6ba9b9d75aabbf6f</MD5>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <Meta>
+        <url>https://www.curseforge.com/minecraft/mc-mods/corpse</url>
+        <version>1.0.0</version>
+        <description>This mod brings a corpse into the game. It will spawn upon your death containing all items that you had in your inventory.</description>
+      </Meta>
+    </Module>
+    <Module name="Stack refill" id="stackrefill" depends="serilum_collective" side="SERVER">
+      <URL priority="0">https://mediafiles.forgecdn.net/files/3920/809/stackrefill_1.19.2-2.3.jar</URL>
+      <Size>9222</Size><MD5>28158161b43b7082e903a03775163a60</MD5>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <Meta>
+        <url>https://www.curseforge.com/minecraft/mc-mods/stack-refill</url>
+        <version>2.3</version>
+        <description>Automatically refills the itemstack in the player's hand if there is any of the same item in the inventory.</description>
+      </Meta>
+    </Module>
+    <Module name="lib: Serilum Collective" id="serilum_collective" depends="" side="SERVER">
+      <URL priority="0">https://mediafiles.forgecdn.net/files/3952/585/collective-1.19.2-4.50.jar</URL>
+      <Size>147834</Size><MD5>5ae0b6dde7b329059def380b35330e90</MD5>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <Meta>
+        <url>https://www.curseforge.com/minecraft/mc-mods/collective</url>
+        <version>4.50</version>
+        <description></description>
+      </Meta>
+    </Module>
+
   </Server>
 </ServerPack>

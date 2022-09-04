@@ -1,0 +1,23 @@
+    <Module name="Stack refill" id="stackrefill" depends="serilum_collective" side="SERVER">
+      <URL priority="0">https://mediafiles.forgecdn.net/files/3920/809/stackrefill_1.19.2-2.3.jar</URL>
+      <Size>9222</Size><MD5>28158161b43b7082e903a03775163a60</MD5>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <Meta>
+        <url>https://www.curseforge.com/minecraft/mc-mods/stack-refill</url>
+        <version>2.3</version>
+        <description>Automatically refills the itemstack in the player's hand if there is any of the same item in the inventory.</description>
+      </Meta>
+    </Module>
+    <Module name="lib: Serilum Collective" id="serilum_collective" depends="" side="SERVER">
+      <URL priority="0">https://mediafiles.forgecdn.net/files/3952/585/collective-1.19.2-4.50.jar</URL>
+      <Size>147834</Size><MD5>5ae0b6dde7b329059def380b35330e90</MD5>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <Meta>
+        <url>https://www.curseforge.com/minecraft/mc-mods/collective</url>
+        <version>4.50</version>
+        <description></description>
+      </Meta>
+    </Module>
+

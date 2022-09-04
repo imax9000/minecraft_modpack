@@ -1,0 +1,11 @@
+    <Module name="FTB Industrial Contraptions" id="ftb-industrial-contraptions" depends="" side="BOTH">
+      <URL priority="0">https://mediafiles.forgecdn.net/files/3907/201/ftb-industrial-contraptions-1900.1.7-build.212.jar</URL>
+      <Size>2140683</Size><MD5>bf250b258f5bfadd92a0788f8f0afc7b</MD5>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <Meta>
+        <url>https://www.curseforge.com/minecraft/mc-mods/ftb-industrial-contraptions-forge</url>
+        <version>1900.1.7</version>
+        <description>FTB Industrial Contraptions is a tech mod inspired by IndustrialCraft</description>
+      </Meta>
+    </Module>
