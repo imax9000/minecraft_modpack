@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="4.0" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="meowcraft" abstract="false" name="MeowCraft" newsUrl="https://imax9000.github.io/minecraft_modpack/" version="1.19.2" serverAddress="mc.imax.in.ua:25565" generateList="true" autoConnect="true" revision="29" mainClass="cpw.mods.bootstraplauncher.BootstrapLauncher" launcherType="Vanilla">
+	<Server id="meowcraft" abstract="false" name="MeowCraft" newsUrl="https://imax9000.github.io/minecraft_modpack/" version="1.19.2" serverAddress="mc.imax.in.ua:25565" generateList="true" autoConnect="true" revision="30" mainClass="cpw.mods.bootstraplauncher.BootstrapLauncher" launcherType="Vanilla">
 		<Loader type="Forge" version="1.19.2-43.1.3" loadOrder="0"/>
 		<Module name="Easier Sleeping" id="EasierSleeping" depends="" side="BOTH">
 			<URL priority="0">https://mediafiles.forgecdn.net/files/3962/615/EasierSleeping-1.19.2-2.1.2.jar</URL>
@@ -361,7 +361,7 @@ probe required if you so desire.
     Credits: Ecu - original idea, design, chest and pouch texture
     Rosethorns - tank model
     Soaryn - tank texture
-	</description>
+  </description>
 				<version>2.10.1.181</version>
 				<url>https://www.curseforge.com/minecraft/mc-mods/ender-storage-1-8</url>
 				<authors>ChickenBones, covers1624</authors>
@@ -412,7 +412,22 @@ It contains libraries for 3D math and transformations, model rendering, packets,
 				<authors></authors>
 			</Meta>
 		</Module>
-		<Module name="Light Overlay" id="lightoverlay" depends="cloth_config architectury" side="BOTH">
+		<Module name="lib: Cloth Config v8 API" id="cloth_config" depends="" side="CLIENT">
+			<URL priority="1">https://mediafiles.forgecdn.net/files/3967/940/cloth-config-8.1.77-forge.jar</URL>
+			<Size>1142361</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>a66b12d4a72be5b77b86bbcfe9d46256</MD5>
+			<Meta>
+				<license>GNU LGPLv3</license>
+				<description>An API for config screens.
+</description>
+				<version>8.1.77</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/cloth-config</url>
+				<authors></authors>
+			</Meta>
+		</Module>
+		<Module name="Light Overlay" id="lightoverlay" depends="cloth_config architectury" side="CLIENT">
 			<URL priority="1">https://mediafiles.forgecdn.net/files/3872/55/light-overlay-7.0.1-forge.jar</URL>
 			<Size>67068</Size>
 			<Required isDefault="true">false</Required>
