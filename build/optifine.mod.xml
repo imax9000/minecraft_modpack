@@ -1,0 +1,11 @@
+    <Module name="OptiFine" id="OptiFine" depends="" side="CLIENT">
+      <URL priority="0">http://optifine.net/adloadx?f=OptiFine_1.19.2_HD_U_H9.jar</URL>
+      <Size>6863178</Size><MD5>e7c4c8af14d48f4149ff2ed442eed05c</MD5>
+      <Required isDefault="true">false</Required>
+      <ModType>Regular</ModType>
+      <Meta>
+        <url>https://optifine.net/home</url>
+        <version>1.19.2_HD_U_H9</version>
+        <description>Allows Minecraft to run faster and look better with full support for HD textures and many configuration options</description>
+      </Meta>
+    </Module>
