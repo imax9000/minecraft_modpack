@@ -1,118 +1,402 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
-<ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-  <Server id="meowcraft" name="MeowCraft" newsUrl="https://imax9000.github.io/minecraft_modpack/" version="1.19.2" mainClass="cpw.mods.bootstraplauncher.BootstrapLauncher" serverAddress="mc.imax.in.ua:25565" revision="26">
-    <Loader type="Forge" version="1.19.2-43.1.3" loadOrder="0"/>
-    <Module name="Easier Sleeping" id="EasierSleeping" depends="" side="BOTH">
-      <URL priority="0">https://mediafiles.forgecdn.net/files/3962/615/EasierSleeping-1.19.2-2.1.2.jar</URL>
-      <Size>55239</Size><MD5>a53e5b5eeb2dcfae5fe38703bec94301</MD5>
-      <Required>true</Required>
-      <ModType>Regular</ModType>
-      <Meta>
-        <url>https://www.curseforge.com/minecraft/mc-mods/easier-sleeping</url>
-        <version>1.19.2-2.1.2</version>
-        <description>Allows to trigger fast-forward to morning when only a percentage of players are sleeping</description>
-      </Meta>
-    </Module>
-    <Module name="FTB Industrial Contraptions" id="ftb-industrial-contraptions" depends="architectury myrtrees ftblibrary" side="BOTH">
-      <URL priority="0">https://mediafiles.forgecdn.net/files/3907/201/ftb-industrial-contraptions-1900.1.7-build.212.jar</URL>
-      <Size>2140683</Size><MD5>bf250b258f5bfadd92a0788f8f0afc7b</MD5>
-      <Required>true</Required>
-      <ModType>Regular</ModType>
-      <Meta>
-        <url>https://www.curseforge.com/minecraft/mc-mods/ftb-industrial-contraptions-forge</url>
-        <version>1900.1.7</version>
-        <description>FTB Industrial Contraptions is a tech mod inspired by IndustrialCraft</description>
-      </Meta>
-    </Module>
-    <Module name="Architectury API" id="architectury" depends="" side="BOTH">
-      <URL priority="0">https://mediafiles.forgecdn.net/files/3929/407/architectury-6.2.43-forge.jar</URL>
-      <Size>544508</Size><MD5>51724557763491f20dbbc730c58b4382</MD5>
-      <Required>true</Required>
-      <ModType>Regular</ModType>
-      <Meta>
-        <url>https://www.curseforge.com/minecraft/mc-mods/architectury-api</url>
-        <version>6.2.43</version>
-        <description></description>
-      </Meta>
-    </Module>
-    <Module name="Myrtrees" id="myrtrees" depends="architectury" side="BOTH">
-      <URL priority="0">https://mediafiles.forgecdn.net/files/3824/947/myrtrees-forge-1.2.0-build.31.jar</URL>
-      <Size>85581</Size><MD5>11c343a1b9a12634d4923db72844446c</MD5>
-      <Required>true</Required>
-      <ModType>Regular</ModType>
-      <Meta>
-        <url>https://www.curseforge.com/minecraft/mc-mods/myrtrees</url>
-        <version>1.2.0</version>
-        <description></description>
-      </Meta>
-    </Module>
-    <Module name="FTB Library" id="ftblibrary" depends="" side="BOTH">
-      <URL priority="0">https://mediafiles.forgecdn.net/files/3963/543/ftb-library-forge-1902.3.9-build.144.jar</URL>
-      <Size>576505</Size><MD5>c97e4f333c704e04a6bf038ad4a3b583</MD5>
-      <Required>true</Required>
-      <ModType>Regular</ModType>
-      <Meta>
-        <url>https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge</url>
-        <version>1902.3.9</version>
-        <description></description>
-      </Meta>
-    </Module>
-    <Module name="Clump XP Orbs together" id="clumps" depends="" side="SERVER">
-      <URL priority="0">https://mediafiles.forgecdn.net/files/3950/216/Clumps-forge-1.19.2-9.0.0%2B11.jar</URL>
-      <Size>16781</Size><MD5>d9a16dc5da321390e628e25aa79d4c8d</MD5>
-      <Required>true</Required>
-      <ModType>Regular</ModType>
-      <Meta>
-        <url>https://www.curseforge.com/minecraft/mc-mods/clumps</url>
-        <version>9.0.0+11</version>
-        <description>Clumps groups XP orbs together into a single entity to reduce lag when there are many in a small area.</description>
-      </Meta>
-    </Module>
-    <Module name="Player Corpses" id="corpse" depends="" side="BOTH">
-      <URL priority="0">https://mediafiles.forgecdn.net/files/3920/717/corpse-1.19.2-1.0.0.jar</URL>
-      <Size>220543</Size><MD5>48c6552127e8aa4a6ba9b9d75aabbf6f</MD5>
-      <Required>true</Required>
-      <ModType>Regular</ModType>
-      <Meta>
-        <url>https://www.curseforge.com/minecraft/mc-mods/corpse</url>
-        <version>1.0.0</version>
-        <description>This mod brings a corpse into the game. It will spawn upon your death containing all items that you had in your inventory.</description>
-      </Meta>
-    </Module>
-    <Module name="OptiFine" id="OptiFine" depends="" side="CLIENT">
-      <URL priority="0">http://optifine.net/adloadx?f=OptiFine_1.19.2_HD_U_H9.jar</URL>
-      <Size>6863178</Size><MD5>e7c4c8af14d48f4149ff2ed442eed05c</MD5>
-      <Required isDefault="true">false</Required>
-      <ModType>Regular</ModType>
-      <Meta>
-        <url>https://optifine.net/home</url>
-        <version>1.19.2_HD_U_H9</version>
-        <description>Allows Minecraft to run faster and look better with full support for HD textures and many configuration options</description>
-      </Meta>
-    </Module>
-    <Module name="Stack refill" id="stackrefill" depends="serilum_collective" side="SERVER">
-      <URL priority="0">https://mediafiles.forgecdn.net/files/3920/809/stackrefill_1.19.2-2.3.jar</URL>
-      <Size>9222</Size><MD5>28158161b43b7082e903a03775163a60</MD5>
-      <Required>true</Required>
-      <ModType>Regular</ModType>
-      <Meta>
-        <url>https://www.curseforge.com/minecraft/mc-mods/stack-refill</url>
-        <version>2.3</version>
-        <description>Automatically refills the itemstack in the player's hand if there is any of the same item in the inventory.</description>
-      </Meta>
-    </Module>
-    <Module name="lib: Serilum Collective" id="serilum_collective" depends="" side="SERVER">
-      <URL priority="0">https://mediafiles.forgecdn.net/files/3952/585/collective-1.19.2-4.50.jar</URL>
-      <Size>147834</Size><MD5>5ae0b6dde7b329059def380b35330e90</MD5>
-      <Required>true</Required>
-      <ModType>Regular</ModType>
-      <Meta>
-        <url>https://www.curseforge.com/minecraft/mc-mods/collective</url>
-        <version>4.50</version>
-        <description></description>
-      </Meta>
-    </Module>
+<ServerPack version="4.0" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="meowcraft" abstract="false" name="MeowCraft" newsUrl="https://imax9000.github.io/minecraft_modpack/" version="1.19.2" serverAddress="mc.imax.in.ua:25565" generateList="true" autoConnect="true" revision="27" mainClass="cpw.mods.bootstraplauncher.BootstrapLauncher" launcherType="Vanilla">
+		<Loader type="Forge" version="1.19.2-43.1.3" loadOrder="0"/>
+		<Module name="Easier Sleeping" id="EasierSleeping" depends="" side="BOTH">
+			<URL priority="0">https://mediafiles.forgecdn.net/files/3962/615/EasierSleeping-1.19.2-2.1.2.jar</URL>
+			<Size>55239</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a53e5b5eeb2dcfae5fe38703bec94301</MD5>
+			<Meta>
+				<description>Allows to trigger fast-forward to morning when only a percentage of players are sleeping</description>
+				<version>1.19.2-2.1.2</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/easier-sleeping</url>
+			</Meta>
+		</Module>
+		<Module name="FTB Industrial Contraptions" id="ftb-industrial-contraptions" depends="architectury myrtrees ftblibrary" side="BOTH">
+			<URL priority="0">https://mediafiles.forgecdn.net/files/3907/201/ftb-industrial-contraptions-1900.1.7-build.212.jar</URL>
+			<Size>2140683</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>bf250b258f5bfadd92a0788f8f0afc7b</MD5>
+			<Meta>
+				<description>FTB Industrial Contraptions is a tech mod inspired by IndustrialCraft</description>
+				<version>1900.1.7</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/ftb-industrial-contraptions-forge</url>
+			</Meta>
+		</Module>
+		<Module name="Architectury API" id="architectury" depends="" side="BOTH">
+			<URL priority="0">https://mediafiles.forgecdn.net/files/3929/407/architectury-6.2.43-forge.jar</URL>
+			<Size>544508</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>51724557763491f20dbbc730c58b4382</MD5>
+			<Meta>
+				<description></description>
+				<version>6.2.43</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/architectury-api</url>
+			</Meta>
+		</Module>
+		<Module name="Myrtrees" id="myrtrees" depends="architectury" side="BOTH">
+			<URL priority="0">https://mediafiles.forgecdn.net/files/3824/947/myrtrees-forge-1.2.0-build.31.jar</URL>
+			<Size>85581</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>11c343a1b9a12634d4923db72844446c</MD5>
+			<Meta>
+				<description>Adds rubber trees</description>
+				<version>1.2.0</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/myrtrees</url>
+			</Meta>
+		</Module>
+		<Module name="lib: FTB Library" id="ftblibrary" depends="" side="BOTH">
+			<URL priority="0">https://mediafiles.forgecdn.net/files/3963/543/ftb-library-forge-1902.3.9-build.144.jar</URL>
+			<Size>576505</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c97e4f333c704e04a6bf038ad4a3b583</MD5>
+			<Meta>
+				<description></description>
+				<version>1902.3.9</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge</url>
+			</Meta>
+		</Module>
+		<Module name="Clump XP Orbs together" id="clumps" depends="" side="SERVER">
+			<URL priority="0">https://mediafiles.forgecdn.net/files/3950/216/Clumps-forge-1.19.2-9.0.0%2B11.jar</URL>
+			<Size>16781</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d9a16dc5da321390e628e25aa79d4c8d</MD5>
+			<Meta>
+				<description>Clumps groups XP orbs together into a single entity to reduce lag when there are many in a small area.</description>
+				<version>9.0.0+11</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/clumps</url>
+			</Meta>
+		</Module>
+		<Module name="Player Corpses" id="corpse" depends="" side="BOTH">
+			<URL priority="0">https://mediafiles.forgecdn.net/files/3920/717/corpse-1.19.2-1.0.0.jar</URL>
+			<Size>220543</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>48c6552127e8aa4a6ba9b9d75aabbf6f</MD5>
+			<Meta>
+				<description>This mod brings a corpse into the game. It will spawn upon your death containing all items that you had in your inventory.</description>
+				<version>1.0.0</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/corpse</url>
+			</Meta>
+		</Module>
+		<Module name="OptiFine" id="OptiFine" depends="" side="CLIENT">
+			<URL priority="0">http://optifine.net/adloadx?f=OptiFine_1.19.2_HD_U_H9.jar</URL>
+			<Size>6863178</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>e7c4c8af14d48f4149ff2ed442eed05c</MD5>
+			<Meta>
+				<description>Allows Minecraft to run faster and look better with full support for HD textures and many configuration options</description>
+				<version>1.19.2_HD_U_H9</version>
+				<url>https://optifine.net/home</url>
+			</Meta>
+		</Module>
+		<Module name="Stack refill" id="stackrefill" depends="serilum_collective" side="SERVER">
+			<URL priority="0">https://mediafiles.forgecdn.net/files/3920/809/stackrefill_1.19.2-2.3.jar</URL>
+			<Size>9222</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>28158161b43b7082e903a03775163a60</MD5>
+			<Meta>
+				<description>Automatically refills the itemstack in the player&apos;s hand if there is any of the same item in the inventory.</description>
+				<version>2.3</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/stack-refill</url>
+			</Meta>
+		</Module>
+		<Module name="lib: Serilum Collective" id="serilum_collective" depends="" side="SERVER">
+			<URL priority="0">https://mediafiles.forgecdn.net/files/3952/585/collective-1.19.2-4.50.jar</URL>
+			<Size>147834</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5ae0b6dde7b329059def380b35330e90</MD5>
+			<Meta>
+				<description></description>
+				<version>4.50</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/collective</url>
+			</Meta>
+		</Module>
+		<Module name="Mouse Tweaks" id="mousetweaks" depends="" side="CLIENT">
+			<URL priority="1">https://mediafiles.forgecdn.net/files/3871/353/MouseTweaks-forge-mc1.19-2.23.jar</URL>
+			<Size>75983</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>855222f31f7a2ebfe84cd57480b9e011</MD5>
+			<Meta>
+				<license>BSD-3-Clause</license>
+				<description>A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons.
+</description>
+				<version>2.23</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks</url>
+				<authors>Ivan Molodetskikh (YaLTeR)</authors>
+			</Meta>
+		</Module>
+		<Module name="Inventory HUD+" id="inventoryhud" depends="" side="CLIENT">
+			<URL priority="1">https://mediafiles.forgecdn.net/files/3930/588/InventoryHud_%5b1.19.2%5d.forge-3.4.6.jar</URL>
+			<Size>205479</Size>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>874475266624fd83c74b51906caa1795</MD5>
+			<Meta>
+				<license>All rights reserved</license>
+				<description>This mod will show you
 
-  </Server>
+your inventory while playing.
+
+Enjoy!
+</description>
+				<version>3.4.6</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge</url>
+				<authors>DmitryLovin</authors>
+			</Meta>
+		</Module>
+		<Module name="Configured" id="configured" depends="" side="CLIENT">
+			<URL priority="1">https://mediafiles.forgecdn.net/files/3947/885/configured-1.5.8-1.19.jar</URL>
+			<Size>133902</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>6c5c0ad4af908a7a58e060e8268bd99f</MD5>
+			<Meta>
+				<license>GPL3</license>
+				<description>Creates a simple GUI config for every mod!</description>
+				<version>1.5.8</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/configured</url>
+				<authors>MrCrayfish</authors>
+			</Meta>
+		</Module>
+		<Module name="Controlling" id="controlling" depends="" side="CLIENT">
+			<URL priority="1">https://mediafiles.forgecdn.net/files/3950/211/Controlling-forge-1.19.2-10.0%2B6.jar</URL>
+			<Size>117187</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>8ee905e711ff4c9b709899a918520376</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Adds the ability to search for keybinds using their name in the KeyBinding menu, this allows players to easily find a key binding in the menu.
+</description>
+				<version>10.0+6</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/controlling</url>
+				<authors>Jaredlll08</authors>
+			</Meta>
+		</Module>
+		<Module name="Catalogue" id="catalogue" depends="" side="BOTH">
+			<URL priority="1">https://mediafiles.forgecdn.net/files/3873/264/catalogue-1.6.3-1.19.jar</URL>
+			<Size>98408</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>07e21b20973ab26931fdf22cd5957f46</MD5>
+			<Meta>
+				<license>GPL3</license>
+				<description>Updates Forge&apos;s mod list with a new and improved design</description>
+				<version>1.6.3</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/catalogue</url>
+				<authors>MrCrayfish</authors>
+			</Meta>
+		</Module>
+		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
+			<URL priority="1">https://mediafiles.forgecdn.net/files/3969/39/jei-1.19.2-forge-11.3.0.262.jar</URL>
+			<Size>1026036</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>8d89a587893263eb21ef3e5e106b3045</MD5>
+			<Meta>
+				<license>The MIT License (MIT)</license>
+				<description>JEI is an item and recipe viewing mod for Minecraft, built from the ground up for stability and performance.
+</description>
+				<version>11.3.0.262</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/jei</url>
+				<authors>mezz</authors>
+			</Meta>
+		</Module>
+		<Module name="AppleSkin" id="appleskin" depends="" side="BOTH">
+			<URL priority="1">https://mediafiles.forgecdn.net/files/3872/808/appleskin-forge-mc1.19-2.4.2.jar</URL>
+			<Size>46991</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>3cd43c763f6e9a244a115606faaecf4f</MD5>
+			<Meta>
+				<license>The Unlicense</license>
+				<description>Adds various food-related HUD improvements</description>
+				<version>2.4.2+mc1.19</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/appleskin</url>
+				<authors>squeek</authors>
+			</Meta>
+		</Module>
+		<Module name="Nature&apos;s Compass" id="naturescompass" depends="" side="BOTH">
+			<URL priority="1">https://mediafiles.forgecdn.net/files/3923/765/NaturesCompass-1.19.2-1.9.7-forge.jar</URL>
+			<Size>207517</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>14ecf38ac6ba26568b1a187f5c066fa4</MD5>
+			<Meta>
+				<license>CC BY-NC-SA 4.0</license>
+				<description>    Search for a biome and get information about it.
+    </description>
+				<version>1.19.2-1.9.7-forge</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/natures-compass</url>
+				<authors>ChaosTheDude</authors>
+			</Meta>
+		</Module>
+		<Module name="Just Enough Resources" id="jeresources" depends="jei" side="BOTH">
+			<URL priority="1">https://mediafiles.forgecdn.net/files/3951/643/JustEnoughResources-1.19.2-1.1.0.179.jar</URL>
+			<Size>266599</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>141a63588ad10d2931b4589f95e1a0fc</MD5>
+			<Meta>
+				<license>&apos;Don&apos;t Be a Jerk&apos; non-commercial care-free license</license>
+				<description>Adds Resources and Mob Drops to JEI
+</description>
+				<version>1.1.0.179</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer</url>
+				<authors>way2muchnoise</authors>
+			</Meta>
+		</Module>
+		<Module name="Pick Up Notifier" id="pickupnotifier" depends="puzzleslib" side="BOTH">
+			<URL priority="1">https://mediafiles.forgecdn.net/files/3945/866/PickUpNotifier-v4.2.0-1.19.2-Forge.jar</URL>
+			<Size>76519</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>ab16d08350719fa560555b72d01502e8</MD5>
+			<Meta>
+				<license>MPL-2</license>
+				<description>Be notified about all the things you&apos;ve just collected.</description>
+				<version>4.2.0</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/pick-up-notifier</url>
+				<authors>Fuzs</authors>
+			</Meta>
+		</Module>
+		<Module name="lib: Puzzles Lib" id="puzzleslib" depends="" side="BOTH">
+			<URL priority="1">https://mediafiles.forgecdn.net/files/3961/876/PuzzlesLib-v4.3.1-1.19.2-Forge.jar</URL>
+			<Size>234695</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>859729839b46ad8115423b9cb1eb2dbb</MD5>
+			<Meta>
+				<license>MPL-2</license>
+				<description>Why&apos;s it called Puzzles you ask? That&apos;s the puzzle!</description>
+				<version>4.3.1</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/puzzles-lib</url>
+				<authors>Fuzs</authors>
+			</Meta>
+		</Module>
+		<Module name="Just Enough Professions (JEP)" id="justenoughprofessions" depends="jei" side="BOTH">
+			<URL priority="1">https://mediafiles.forgecdn.net/files/3873/944/JustEnoughProfessions-forge-1.19-2.0.1.jar</URL>
+			<Size>23202</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>35c808291c2b03a66d903d1751f7e7ab</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Adds info about professions to JEI
+</description>
+				<version>2.0.1</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/just-enough-professions-jep</url>
+				<authors>Mrbysco, ShyNieke</authors>
+			</Meta>
+		</Module>
+		<Module name="The One Probe" id="theoneprobe" depends="" side="BOTH">
+			<URL priority="1">https://mediafiles.forgecdn.net/files/3965/693/theoneprobe-1.19-6.2.2.jar</URL>
+			<Size>332491</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>67f217c81b311f2c5131758f8c37cefd</MD5>
+			<Meta>
+				<license>MIT License https://github.com/McJtyMods/TheOneProbe/blob/1.16/LICENCE</license>
+				<description>The One Probe lets you examine the block that you are looking at. Having a
+probe in your hand lets you examine it better but you can also make this
+probe required if you so desire.
+</description>
+				<version>1.19-6.2.2</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/the-one-probe</url>
+				<authors></authors>
+			</Meta>
+		</Module>
+		<Module name="Mod Name Tooltip" id="modnametooltip" depends="" side="CLIENT">
+			<URL priority="1">https://mediafiles.forgecdn.net/files/3898/427/modnametooltip-1.19-1.19.0.jar</URL>
+			<Size>12658</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>78c0a13a097b0c5aa944cf851f736433</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>On ItemStack tooltips, shows which mod the item is from.
+</description>
+				<version>1.19.0</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/mod-name-tooltip</url>
+				<authors></authors>
+			</Meta>
+		</Module>
+		<Module name="ComputerCraft: Tweaked" id="computercraft" depends="" side="BOTH">
+			<URL priority="1">https://mediafiles.forgecdn.net/files/3904/454/cc-tweaked-1.19.1-1.100.9.jar</URL>
+			<Size>2170165</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>561cbb9076a26d83176cb81fa6f9c71b</MD5>
+			<Meta>
+				<license>ComputerCraft Public License (https://raw.githubusercontent.com/dan200/ComputerCraft/master/LICENSE)</license>
+				<description>CC: Tweaked is a fork of ComputerCraft, adding programmable computers, turtles and more to Minecraft.
+</description>
+				<version>1.100.9</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/cc-tweaked</url>
+				<authors>Daniel Ratcliffe, Aaron Mills, SquidDev</authors>
+			</Meta>
+		</Module>
+		<Module name="EnderStorage" id="enderstorage" depends="codechickenlib" side="BOTH">
+			<URL priority="1">https://mediafiles.forgecdn.net/files/3951/59/EnderStorage-1.19.2-2.10.1.181-universal.jar</URL>
+			<Size>218483</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>75d4cdf7dce4a676cbf9dbfd998e7a13</MD5>
+			<Meta>
+				<license>The MIT License (MIT)</license>
+				<description>Stores your stuff in the END!
+    Credits: Ecu - original idea, design, chest and pouch texture
+    Rosethorns - tank model
+    Soaryn - tank texture
+	</description>
+				<version>2.10.1.181</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/ender-storage-1-8</url>
+				<authors>ChickenBones, covers1624</authors>
+			</Meta>
+		</Module>
+		<Module name="CodeChicken Lib" id="codechickenlib" depends="" side="BOTH">
+			<URL priority="1">https://mediafiles.forgecdn.net/files/3962/126/CodeChickenLib-1.19.2-4.3.0.470-universal.jar</URL>
+			<Size>861497</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>33db856bf9357c461a5dbe1a309f875a</MD5>
+			<Meta>
+				<license>GNU Lesser General Public License v2.1</license>
+				<description>CodeChickenLib is a library of systems to help make various aspects of minecraft modding easier.
+It contains libraries for 3D math and transformations, model rendering, packets, config, colours, asm and a few other things..
+    </description>
+				<version>4.3.0.470</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8</url>
+				<authors>ChickenBones, covers1624</authors>
+			</Meta>
+		</Module>
+		<Module name="Journeymap" id="journeymap" depends="" side="BOTH">
+			<URL priority="1">https://mediafiles.forgecdn.net/files/3927/230/journeymap-1.19.1-5.9.0beta2-forge.jar</URL>
+			<Size>7029855</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>3bbcb3d931d8e7a372a5e608d644bf0c</MD5>
+			<Meta>
+				<license>All rights reserved</license>
+				<description>JourneyMap: Real-time map in-game or in a web browser as you explore. JourneyMap API: v1.19-1.9-SNAPSHOT. Built: 2022-08-09-19:22:28.
+</description>
+				<version>5.9.0beta2</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/journeymap</url>
+				<authors>Techbrew, Mysticdrew</authors>
+			</Meta>
+		</Module>
+	</Server>
 </ServerPack>
