@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="4.0" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="meowcraft" abstract="false" name="MeowCraft" newsUrl="https://imax9000.github.io/minecraft_modpack/" version="1.19.2" serverAddress="mc.imax.in.ua:25565" generateList="true" autoConnect="true" revision="30" mainClass="cpw.mods.bootstraplauncher.BootstrapLauncher" launcherType="Vanilla">
+	<Server id="meowcraft" abstract="false" name="MeowCraft" newsUrl="https://imax9000.github.io/minecraft_modpack/" version="1.19.2" serverAddress="mc.imax.in.ua:25565" generateList="true" autoConnect="true" revision="31" mainClass="cpw.mods.bootstraplauncher.BootstrapLauncher" launcherType="Vanilla">
 		<Loader type="Forge" version="1.19.2-43.1.3" loadOrder="0"/>
 		<Module name="Easier Sleeping" id="EasierSleeping" depends="" side="BOTH">
 			<URL priority="0">https://mediafiles.forgecdn.net/files/3962/615/EasierSleeping-1.19.2-2.1.2.jar</URL>
@@ -440,6 +440,20 @@ It contains libraries for 3D math and transformations, model rendering, packets,
 				<version>7.0.1</version>
 				<url>https://www.curseforge.com/minecraft/mc-mods/light-overlay</url>
 				<authors></authors>
+			</Meta>
+		</Module>
+		<Module name="Chunk Loader" id="chickenchunks" depends="codechickenlib" side="BOTH">
+			<URL priority="1">https://mediafiles.forgecdn.net/files/3951/57/ChickenChunks-1.19.2-2.9.4.97-universal.jar</URL>
+			<Size>108326</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>78af53659ad810d353fa4eae45505eac</MD5>
+			<Meta>
+				<license>The MIT License (MIT)</license>
+				<description>Advanced ChunkLoading management</description>
+				<version>2.9.4.97</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/chicken-chunks-1-8</url>
+				<authors>ChickenBones, covers1624</authors>
 			</Meta>
 		</Module>
 	</Server>
