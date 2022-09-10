@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="4.0" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="meowcraft" abstract="false" name="MeowCraft" newsUrl="https://imax9000.github.io/minecraft_modpack/" version="1.19.2" serverAddress="mc.imax.in.ua:25565" generateList="true" autoConnect="true" revision="31" mainClass="cpw.mods.bootstraplauncher.BootstrapLauncher" launcherType="Vanilla">
+	<Server id="meowcraft" abstract="false" name="MeowCraft" newsUrl="https://imax9000.github.io/minecraft_modpack/" version="1.19.2" serverAddress="mc.imax.in.ua:25565" generateList="true" autoConnect="true" revision="32" mainClass="cpw.mods.bootstraplauncher.BootstrapLauncher" launcherType="Vanilla">
 		<Loader type="Forge" version="1.19.2-43.1.3" loadOrder="0"/>
 		<Module name="Easier Sleeping" id="EasierSleeping" depends="" side="BOTH">
 			<URL priority="0">https://mediafiles.forgecdn.net/files/3962/615/EasierSleeping-1.19.2-2.1.2.jar</URL>
@@ -97,30 +97,6 @@
 				<description>Allows Minecraft to run faster and look better with full support for HD textures and many configuration options</description>
 				<version>1.19.2_HD_U_H9</version>
 				<url>https://optifine.net/home</url>
-			</Meta>
-		</Module>
-		<Module name="Stack refill" id="stackrefill" depends="serilum_collective" side="SERVER">
-			<URL priority="0">https://mediafiles.forgecdn.net/files/3920/809/stackrefill_1.19.2-2.3.jar</URL>
-			<Size>9222</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>28158161b43b7082e903a03775163a60</MD5>
-			<Meta>
-				<description>Automatically refills the itemstack in the player&apos;s hand if there is any of the same item in the inventory.</description>
-				<version>2.3</version>
-				<url>https://www.curseforge.com/minecraft/mc-mods/stack-refill</url>
-			</Meta>
-		</Module>
-		<Module name="lib: Serilum Collective" id="serilum_collective" depends="" side="SERVER">
-			<URL priority="0">https://mediafiles.forgecdn.net/files/3952/585/collective-1.19.2-4.50.jar</URL>
-			<Size>147834</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>5ae0b6dde7b329059def380b35330e90</MD5>
-			<Meta>
-				<description></description>
-				<version>4.50</version>
-				<url>https://www.curseforge.com/minecraft/mc-mods/collective</url>
 			</Meta>
 		</Module>
 		<Module name="Mouse Tweaks" id="mousetweaks" depends="" side="CLIENT">
@@ -401,7 +377,7 @@ It contains libraries for 3D math and transformations, model rendering, packets,
 		<Module name="Advanced XRay (doesn&apos;t work with OptiFine)" id="xray" depends="" side="CLIENT">
 			<URL priority="1">https://mediafiles.forgecdn.net/files/3905/392/advanced-xray-forge-1.19.1-2.13.0-build.15.jar</URL>
 			<Size>142303</Size>
-			<Required isDefault="true">false</Required>
+			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>14eaae7191d87d32d3a8e24071475226</MD5>
 			<Meta>
@@ -454,6 +430,111 @@ It contains libraries for 3D math and transformations, model rendering, packets,
 				<version>2.9.4.97</version>
 				<url>https://www.curseforge.com/minecraft/mc-mods/chicken-chunks-1-8</url>
 				<authors>ChickenBones, covers1624</authors>
+			</Meta>
+		</Module>
+		<Module name="Dynmap" id="dynmap" depends="" side="SERVER">
+			<URL priority="1">https://mediafiles.forgecdn.net/files/3934/701/Dynmap-3.4-forge-1.19.2.jar</URL>
+			<Size>10172756</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a8f8d85c9724abb0b84151d72b7c4fb4</MD5>
+			<Meta>
+				<license>Apache Public License v2</license>
+				<description>Dynamic, Google-maps style rendered maps for your Minecraft server
+</description>
+				<version>3.4-828</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/dynmapforge</url>
+				<authors>mikeprimm</authors>
+			</Meta>
+		</Module>
+		<Module name="lib: SuperMartijn642&apos;s Core Lib" id="supermartijn642corelib" depends="" side="BOTH">
+			<URL priority="1">https://mediafiles.forgecdn.net/files/3910/759/supermartijn642corelib-1.0.19a-forge-mc1.19.jar</URL>
+			<Size>207123</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ade0a3d719827fdf9489dcb97a528028</MD5>
+			<Meta>
+				<license>All rights reserved</license>
+				<description>SuperMartijn642&apos;s Core Lib adds lots of basic implementations for guis that allow for similar code between Minecraft 1.12, 1.14, 1.15, and 1.16!</description>
+				<version>1.0.19a</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib</url>
+				<authors>SuperMartijn642</authors>
+			</Meta>
+		</Module>
+		<Module name="Trash Cans" id="trashcans" depends="supermartijn642corelib" side="BOTH">
+			<URL priority="1">https://mediafiles.forgecdn.net/files/3963/474/trashcans-1.0.15b-forge-mc1.19.jar</URL>
+			<Size>149792</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>61566f3e038c3b986927753a4b2c5a82</MD5>
+			<Meta>
+				<license>All rights reserved</license>
+				<description>Trash Cans adds Trash Cans which can be used to void items, liquids and energy!</description>
+				<version>1.0.15b</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/trash-cans</url>
+				<authors>SuperMartijn642</authors>
+			</Meta>
+		</Module>
+		<Module name="Sleeping Bags" id="sleeping_bags" depends="" side="BOTH">
+			<URL priority="1">https://mediafiles.forgecdn.net/files/3920/735/sleeping_bags-1.19.2-1.0.0.jar</URL>
+			<Size>172421</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b15520c691e6b64b14753cb2cca4c484</MD5>
+			<Meta>
+				<license>All rights reserved</license>
+				<description>Sleeping bags</description>
+				<version>1.19.2-1.0.0</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/sleeping-bags</url>
+				<authors>Max Henkel</authors>
+			</Meta>
+		</Module>
+		<Module name="Simple Storage Network" id="storagenetwork" depends="" side="BOTH">
+			<URL priority="1">https://mediafiles.forgecdn.net/files/3914/635/SimpleStorageNetwork-1.19-1.6.4.jar</URL>
+			<Size>463535</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b9e60a03abd6c6ffe54cfba495cc81e6</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Storage Network to connect inventories to search and craft
+</description>
+				<version>1.19-1.6.4</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/simple-storage-network</url>
+				<authors>Lothrazar, MrRiegel</authors>
+			</Meta>
+		</Module>
+		<Module name="Stack refill" id="give_me_more" depends="" side="CLIENT">
+			<URL priority="1">https://mediafiles.forgecdn.net/files/3907/633/give_me_more-1.19-forgeUpdate-1.3.jar</URL>
+			<Size>28446</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>4d4551cfac432232de02f40301d4e95b</MD5>
+			<Meta>
+				<license>All rights reserved</license>
+				<description>This is a long form description of the mod. You can write whatever you want here
+
+Have some lorem ipsum.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis lacinia magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed sagittis luctus odio eu tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque volutpat ligula eget lacus auctor sagittis. In hac habitasse platea dictumst. Nunc gravida elit vitae sem vehicula efficitur. Donec mattis ipsum et arcu lobortis, eleifend sagittis sem rutrum. Cras pharetra quam eget posuere fermentum. Sed id tincidunt justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+</description>
+				<version>1.3</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/give-me-more</url>
+				<authors>Almighty_Anubis</authors>
+			</Meta>
+		</Module>
+		<Module name="Pipez" id="pipez" depends="" side="BOTH">
+			<URL priority="1">https://mediafiles.forgecdn.net/files/3920/730/pipez-1.19.2-1.0.0.jar</URL>
+			<Size>403831</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a5e56b3b2c9ed8e9f308a010728f834d</MD5>
+			<Meta>
+				<license>All rights reserved</license>
+				<description>Simple and efficient pipes</description>
+				<version>1.19.2-1.0.0</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/pipez</url>
+				<authors>Max Henkel</authors>
 			</Meta>
 		</Module>
 	</Server>
