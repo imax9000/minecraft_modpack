@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ServerPackv2.xsl" type="text/xsl" ?>
+<ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+  <Server id="imax2" name="Brave New World" newsUrl="http://imax.in.ua/mc/" version="1.7.10" mainClass="net.minecraft.launchwrapper.Launch" revision="72" autoConnect="true" serverAddress="mc.imax.in.ua:25565">
+    <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.10&amp;forge=10.13.4.1614">forge</Import>
+    <!--<Module name="Minecraft Forge" id="10.13.4.1614" depends="" side="BOTH">
+      <URL>http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.7.10-10.13.4.1614-1.7.10/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar</URL>
+      <MD5>de79b780f4687646f315894720668842</MD5>
+      <ModType order="1">Override</ModType>
+    </Module>-->
+    <Module name="BiblioCraft" id="BiblioCraft" side="BOTH">
+      <URL priority="0">http://imax.in.ua/mc/14137105062_BiblioCraft-Mod-1.7.10.jar</URL>
+      <Size>4457647</Size>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <MD5>c9033ace9aa432855120481aa5974073</MD5>
+    </Module>
+    <Module name="BuildCraft" id="BuildCraft" depends="" side="BOTH">
+      <URL priority="0">http://www.mod-buildcraft.com/releases/BuildCraft/7.1.14/buildcraft-7.1.14.jar</URL>
+      <Size>2783746</Size>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <MD5>845fdd6d81ed018b4d4e272ea44fc352</MD5>
+      <Meta>
+        <url>http://www.mod-buildcraft.com</url>
+        <version>7.1.14</version>
+      </Meta>
+    </Module>
+    <Module name="BuildCraft Compat" id="BuildCraftCompat" depends="BuildCraft" side="BOTH">
+      <URL priority="0">http://www.mod-buildcraft.com/releases/BuildCraftCompat/7.1.3/buildcraft-compat-7.1.3.jar</URL>
+      <Size>262910</Size>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <MD5>cc06b328936e07aac79825b231615621</MD5>
+      <Meta>
+        <url>http://www.mod-buildcraft.com</url>
+        <version>7.1.3</version>
+      </Meta>
+    </Module>
+    <Module name="CodeChickenCore" id="CodeChickenCore" depends="" side="BOTH">
+      <URL priority="0">http://chickenbones.net/maven/codechicken/CodeChickenCore/1.7.10-1.0.7.47/CodeChickenCore-1.7.10-1.0.7.47-universal.jar</URL>
+      <Size>145782</Size>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <MD5>07690caf86ecf79739852154f5e44750</MD5>
+      <Meta>
+        <url>http://chickenbones.net/Pages/links.html</url>
+        <version>1.0.7.47</version>
+      </Meta>
+    </Module>
+    <Module name="NotEnoughItems" id="NotEnoughItems" depends="CodeChickenCore" side="BOTH">
+      <URL priority="0">http://chickenbones.net/maven/codechicken/NotEnoughItems/1.7.10-1.0.5.118/NotEnoughItems-1.7.10-1.0.5.118-universal.jar</URL>
+      <Size>513018</Size>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <MD5>8a92f6d5da71f98f09d71eadfbc588c6</MD5>
+      <Meta>
+        <url>http://minecraft.curseforge.com/projects/notenoughitems</url>
+        <version>1.0.5.118</version>
+      </Meta>
+    </Module>
+    <Module name="Chunk Loader" id="ChickenChunks" depends="CodeChickenCore" side="BOTH">
+      <URL priority="0">http://chickenbones.net/maven/codechicken/ChickenChunks/1.7.10-1.3.4.19/ChickenChunks-1.7.10-1.3.4.19-universal.jar</URL>
+      <Size>106701</Size>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <MD5>5592eda79bd2b52adf1d4bdceaa59b73</MD5>
+      <Meta>
+        <url>http://chickenbones.net/Pages/links.html</url>
+        <version>1.3.4.19</version>
+      </Meta>
+    </Module>
+    <Module name="Ender Storage" id="EnderStorage" depends="CodeChickenCore" side="BOTH">
+      <URL priority="0">http://chickenbones.net/maven/codechicken/EnderStorage/1.7.10-1.4.7.38/EnderStorage-1.7.10-1.4.7.38-universal.jar</URL>
+      <Size>145460</Size>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <MD5>38d2cc792352c8ac716a9fcc5ec82f1a</MD5>
+      <Meta>
+        <url>http://chickenbones.net/Pages/links.html</url>
+        <version>1.4.5.38</version>
+      </Meta>
+    </Module>
+    <Module name="BdLib" id="BdLib" depends="" side="BOTH">
+		<URL priority="0">https://minecraft.curseforge.com/projects/bdlib/files/2269259/download</URL>
+		<URL priority="1">http://addons-origin.cursecdn.com/files/2269/259/bdlib-1.9.4.109-mc1.7.10.jar</URL>
+      <Size>1503184</Size>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <MD5>e446121e3e94b77d1c610ceed0fd3f68</MD5>
+      <Meta>
+		  <url>https://minecraft.curseforge.com/projects/bdlib</url>
+        <version>1.9.4.109</version>
+      </Meta>
+	</Module>
+  	<Module name="Compacter" id="Compacter" depends="BdLib" side="BOTH">
+		<URL priority="0">https://minecraft.curseforge.com/projects/compacter/files/2251463/download</URL>
+		<URL priority="1">http://addons-origin.cursecdn.com/files/2251/463/compacter-1.1.0.12-mc1.7.10.jar</URL>
+      <Size>187167</Size>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <MD5>c53162599daa15f67a34ce8fc811ab3a</MD5>
+      <Meta>
+		  <url>https://minecraft.curseforge.com/projects/compacter</url>
+        <version>1.1.0.12</version>
+      </Meta>
+    </Module>
+    <Module name="Compact Storage" id="CompactStorage" depends="" side="BOTH">
+		<URL priority="0">https://minecraft.curseforge.com/projects/compactstorage/files/2272471/download</URL>
+		<URL priority="1">http://addons.cursecdn.com/files/2272/471/compactstorage-1.7.10-release-2.1.0-lts.20-universal.jar</URL>
+      <Size>90525</Size>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <MD5>faf661c07da27f1467f0ab8be8585bb0</MD5>
+      <Meta>
+		  <url>https://minecraft.curseforge.com/projects/compactstorage</url>
+        <version>2.1.20</version>
+      </Meta>
+    </Module>
+    <Module name="Decocraft" id="Decocraft" side="BOTH">
+		<URL priority="0">http://addons-origin.cursecdn.com/files/2229/952/Decocraft-v1.12b_1.7.10.jar</URL>
+      <Size>7698824</Size>
+	  <Required>true</Required>
+      <ModType>Regular</ModType>
+      <MD5>848a448f9ad8b19cc07b1cc2b305b487</MD5>
+      <Meta>
+		  <url>http://minecraft.curseforge.com/projects/decocraft2</url>
+        <version>1.12b</version>
+      </Meta>
+    </Module>
+    <Module name="Forestry" id="Forestry" side="BOTH">
+      <URL priority="0">http://addons-origin.cursecdn.com/files/2288/968/forestry_1.7.10-4.2.11.59.jar</URL>
+      <Size>3303681</Size>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <MD5>9faa2c368a42968696c2eef437fab923</MD5>
+      <Meta>
+        <url>https://forestryforminecraft.info/</url>
+        <version>4.2.11.59</version>
+      </Meta>
+    </Module>
+    <Module name="Forge Essentials (client)" id="feclient" depends="" side="CLIENT">
+      <URL priority="0">http://addons-origin.cursecdn.com/files/2280/296/forgeessentials-1.7.10-1.4.4.1146-client.jar</URL>
+      <Size>645305</Size>
+      <Required isDefault="false">false</Required>
+      <ModType>Regular</ModType>
+      <MD5>4b81c17ec6973edc4d700dfcf7d83570</MD5>
+      <Meta>
+        <url>http://minecraft.curseforge.com/projects/forge-essentials-client</url>
+        <version>1.4.4.1146</version>
+      </Meta>
+    </Module>
+    <Module name="IndustrialCraft" id="ic2" depends="" side="BOTH">
+      <URL priority="0">http://jenkins.ic2.player.to/job/IC2_experimental/810/artifact/build/libs/industrialcraft-2-2.2.810-experimental.jar</URL>
+      <Size>5636424</Size>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <MD5>4f76442228e5f8799a905ba6966042f1</MD5>
+      <Meta>
+        <url>http://wiki.industrial-craft.net/index.php?title=Main_Page</url>
+        <version>2.2.810</version>
+      </Meta>
+    </Module>
+    <Module name="Logistics Pipes" id="LogisticsPipes" depends="BuildCraft" side="BOTH">
+		<URL priority="0">https://minecraft.curseforge.com/projects/logistics-pipes/files/2312257/download</URL>
+		<URL priority="1">http://imax.in.ua/mc/logisticspipes-0.9.3.126.jar</URL>
+      <Size>3250031</Size>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <MD5>efa0fa94e14a946ad5f237a43d48950d</MD5>
+      <Meta>
+        <url>http://minecraft.curseforge.com/projects/logistics-pipes</url>
+        <version>0.9.3.126</version>
+      </Meta>
+    </Module>
+    <Module name="OpenComputers" id="OpenComputers" depends="" side="BOTH">
+      <URL priority="0">http://addons-origin.cursecdn.com/files/2272/867/OpenComputers-MC1.7.10-1.5.21.41-universal.jar</URL>
+      <Size>12694382</Size>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <MD5>0b401a5357a8a4f8756b3185402138ca</MD5>
+      <Meta>
+        <url>http://minecraft.curseforge.com/projects/opencomputers</url>
+        <version>1.5.21.41</version>
+      </Meta>
+    </Module>
+    <Module name="Journey Map" id="JourneyMap" depends="" side="BOTH">
+      <URL priority="0">http://addons-origin.cursecdn.com/files/2269/314/journeymap-1.7.10-5.1.3-unlimited.jar</URL>
+      <Size>1731506</Size>
+      <Required isDefault="true">false</Required>
+      <ModType>Regular</ModType>
+      <MD5>6c2ec9c84f91e44e9b37e7aacc96da8f</MD5>
+      <Meta>
+        <authors>Techbrew</authors>
+        <description>Map</description>
+        <url>http://journeymap.info/Home</url>
+        <version>5.1.3</version>
+      </Meta>
+    </Module>
+    <Module name="X-Ray" id="XRay" depends="" side="CLIENT">
+      <URL priority="0">https://s3.amazonaws.com/Minecraft.XRay/XRay-15.jar</URL>
+      <Size>295687</Size>
+      <Required isDefault="true">false</Required>
+      <ModType>Regular</ModType>
+      <MD5>2d3d3aa43ed72df97f8278315dd0b84c</MD5>
+      <Meta>
+        <url>http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1292688-xray-mod-1-6-4-1-8-9-vanilla-forge-liteloader</url>
+        <version>15</version>
+      </Meta>
+    </Module>
+    <Module name="What Am I Looking At" id="waila" depends="NotEnoughItems" side="BOTH">
+      <URL priority="0">http://addons-origin.cursecdn.com/files/2230/518/Waila-1.5.10_1.7.10.jar</URL>
+      <Size>544821</Size>
+      <Required isDefault="true">false</Required>
+      <ModType>Regular</ModType>
+      <MD5>eeb36775188e70faa1c5ecd84f80076c</MD5>
+      <Meta>
+        <url>http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1289765-waila-1-5-7-for-1-7-10-1-6-0-for-1-8-1</url>
+        <version>1.5.10</version>
+      </Meta>
+    </Module>
+    <Module name="Light Level Overlay" id="LLOverlayReloaded" depends="" side="CLIENT">
+      <URL priority="0">http://addons-origin.cursecdn.com/files/2259/606/LLOverlayReloaded-1.0.3-mc1.7.10.jar</URL>
+      <Size>11262</Size>
+      <Required isDefault="true">false</Required>
+      <ModType>Regular</ModType>
+      <MD5>722ebf49aee4e1712802ec54ba435a1e</MD5>
+      <Meta>
+        <url>http://minecraft.curseforge.com/projects/light-level-overlay-reloaded?gameCategorySlug=mc-mods&amp;projectID=226670</url>
+        <version>1.0.3</version>
+      </Meta>
+    </Module>
+    <Module name="ArmorStatusHUD" id="ArmorStatusHUD" depends="" side="CLIENT">
+      <URL priority="0">http://addons-origin.cursecdn.com/files/2218/859/%5B1.7.10%5DArmorStatusHUD-client-1.28.jar</URL>
+      <Size>27281</Size>
+      <Required isDefault="true">false</Required>
+      <ModType>Regular</ModType>
+      <MD5>f0da1af3ea5b7797d2742b7a2b874e92</MD5>
+      <Meta>
+        <url>http://minecraft.curseforge.com/projects/armorstatushud</url>
+        <version>1.28</version>
+      </Meta>
+    </Module>
+    <Module name="Sushicraft" id="Sushicraft" side="BOTH">
+		<URL priority="0">https://minecraft.curseforge.com/projects/sushicraft/files/2321469/download</URL>
+      <Size>9557643</Size>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <MD5>f6faa112c0d6e8ad4a1cb684db917079</MD5>
+      <Meta>
+        <url>http://minecraft.curseforge.com/projects/sushicraft</url>
+        <version>14.6</version>
+      </Meta>
+    </Module>
+    <Module name="Darkcore" id="darkcore" depends="" side="BOTH">
+      <URL priority="0">http://addons-origin.cursecdn.com/files/2272/347/darkcore-0.3-86.jar</URL>
+      <Size>1073416</Size>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <MD5>c06a275e846eec1d58a3ec32424e94e3</MD5>
+      <Meta>
+        <url>http://mods.curse.com/mc-mods/minecraft/230156-darkcore</url>
+        <version>0.3.86</version>
+      </Meta>
+    </Module>
+    <Module name="TARDIS" id="TARDIS" depends="darkcore" side="BOTH">
+      <URL priority="0">http://addons-origin.cursecdn.com/files/2272/349/tardismod-1.7.10-0.994-124-DS.jar</URL>
+      <Size>5905387</Size>
+      <Required>true</Required>
+      <ModType>Regular</ModType>
+      <MD5>7607c855031853c8e415fcfe57322aa1</MD5>
+      <Meta>
+        <url>http://mods.curse.com/mc-mods/minecraft/230170-tardis-mod</url>
+        <version>0.994.124</version>
+      </Meta>
+    </Module>
+  </Server>
+</ServerPack>
